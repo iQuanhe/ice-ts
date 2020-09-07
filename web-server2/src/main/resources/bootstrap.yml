@@ -1,0 +1,81 @@
+spring:
+  application:
+    name: bop-pulse-query
+  jackson:
+    default-property-inclusion: non_null
+  cloud:
+    config:
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: bop-server-config
+      name: config-client
+    stream:
+      kafka:
+        binder:
+          zk-nodes: 10.77.6.123:2181,10.75.19.230:2181,10.75.17.28:2181,10.13.4.166:2181,10.13.4.167:2181
+          brokers: 10.77.6.123:9092,10.75.19.230:9092,10.75.17.28:9092,10.13.4.166:9092,10.13.4.167:9092
+#         zk-nodes: localhost:2181
+#         brokers: localhost:9092
+
+  mail:
+    host: mail.staff.sina.com.cn #邮箱服务器地址
+    username: bop_mail_alert #用户名
+    password: aDmIn01#    #密码
+    default-encoding: UTF-8
+    smtp:
+      auth: true
+      starttls:
+        enable: true
+
+    fromMail:
+      addr: bop_mail_alert@staff.weibo.com  #以谁来发送邮件
+
+mybatis:
+  type-aliases-package: com.weibo.bop.pulse.query.model
+  mapper-locations: classpath*:com/weibo/bop/pulse/query/repo/xml/*.xml
+
+security.basic.enabled: false
+
+server:
+  port: 8101
+
+management:
+  security:
+    enabled: false     #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限
+
+feign:
+  hystrix:
+    enabled: false
+
+ribbon:
+  eager-load:
+    enabled: true
+    clients: bop-pulse-query
+  ConnectTimeout: 60000 #默认2s
+  ReadTimeout: 60000 #默认5s
+  OkToRetryOnAllOperations: true
+  MaxAutoRetriesNextServer: 2
+  MaxAutoRetries: 2
+  eureka:
+    enabled: true
+
+#避免第一次调用失败
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://master.bop.weibo.com:8501/eureka/
+
+#config:
+#  url: http://localhost:8502/config/client

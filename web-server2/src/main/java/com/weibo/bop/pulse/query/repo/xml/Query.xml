@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weibo.bop.pulse.query.repo.mapper.QueryMapper">
+
+    <select id="listAll" resultType="java.util.Map" statementType="STATEMENT">
+        <![CDATA[ ${sql} ]]>
+    </select>
+
+    <select id="listWithPage" resultType="java.util.Map" statementType="STATEMENT">
+        <![CDATA[ select * from (${sql}) tbl limit ${current},${size} ]]>
+    </select>
+
+    <select id="getCount" resultType="Long" statementType="STATEMENT">
+        <![CDATA[ select count(0) from(${sql}) tbl ]]>
+    </select>
+
+</mapper>

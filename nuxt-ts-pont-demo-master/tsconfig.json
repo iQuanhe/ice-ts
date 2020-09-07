@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "importHelpers": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "app/*"
+      ],
+      "@/*": [
+        "app/*"
+      ]
+    },
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "lib": [
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "strict": true,
+    "noEmit": true,
+    "types": [
+      "@types/node",
+      "@nuxt/vue-app"
+    ]
+  },
+  "exclude": [
+    "app/config/pont-template-nuxt.ts"
+  ]
+}

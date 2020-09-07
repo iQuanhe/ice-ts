@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 30 16:52:01 CST 2019
+kafka_2.11-0.10.1.1.jar>weibo=
+kafka_2.11-0.10.1.1.pom>weibo=

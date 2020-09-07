@@ -1,0 +1,696 @@
+spring:
+  application:
+    name: kpi-management
+#  zipkin:
+#    base-url: http://localhost:8504
+  sleuth:
+    sampler:
+      percentage: 0.1
+  redis:
+    database: 3
+    host: rm21330.eos.grid.sina.com.cn
+    port: 21330
+    password:
+    pool:
+      max-active: 8
+      min-idle: 0
+      max-idle: 8
+      max-wait: -1
+    timeout: 0
+
+security.basic.enabled: false
+
+server:
+  port: 8106
+
+management:
+  security:
+    enabled: false
+
+eureka:
+  instance:
+    metadata-map: #元数据
+      sys: 1
+      sys-1: 1,kpi二期,KPI
+      api: 1-1,1-2,1-3,1-4,1-5,1-6,1-7,1-8,1-9,1-10,1-11,1-12,1-13,1-14,1-15,1-16,1-17,1-18,1-19,1-20,1-21,1-22
+      #{V4MVUJWa: 1-1}
+      api-label: {getKaContractDetailColumns: 1-1,geKaAchievementSummaryColumns: 1-2,getEbsInputColumns: 1-3,
+                  getEbsConsumeColumns: 1-4,getEbsDailyCanalDay: 1-5,getEbsDailyCanalWeek: 1-6,getEbsDailyCanalQuarter: 1-7,
+                  getEbsAgentQuarterlyReport: 1-8,getEbsAgentWeeklyReport: 1-9,getEbsAgentDailyReport: 1-10,getEbsAreaCanal: 1-11,
+                  getContractDetail: 1-12, getConsumeEcpm: 1-13, getCashEcpm: 1-14, getIncomeTax: 1-15, getlogUsers: 1-16,
+                  getBopMdsDimNetIncomeSettlement: 1-17,getBopMdsWeiboFinaAmount: 1-18, getJcCustomerSummary: 1-19,
+                  getFinanceIncome: 1-20,bop_mds_fans_superfans_economy: 1-21,bop_ods_jc_everyhour_consume_final: 1-22}
+      api-1-1: 11,getKaContractDetailColumns
+      api-1-2: 12,geKaAchievementSummaryColumns
+      api-1-3: 13,getEbsInputColumns
+      api-1-4: 14,getEbsConsumeColumns
+      api-1-5: 15,getEbsDailyCanalDay
+      api-1-6: 16,getEbsDailyCanalWeek
+      api-1-7: 17,getEbsDailyCanalQuarter
+      api-1-8: 18,getEbsAgentQuarterlyReport
+      api-1-9: 19,getEbsAgentWeeklyReport
+      api-1-10: 110,getEbsAgentDailyReport
+      api-1-11: 111,getEbsAreaCanal
+      api-1-12: 112,getContractDetail
+      api-1-13: 113,getConsumeEcpm
+      api-1-14: 114,getCashEcpm
+      api-1-15: 115,getIncomeTax
+      api-1-16: 116,getlogUsers
+      api-1-17: 117,getBopMdsDimNetIncomeSettlement
+      api-1-18: 118,getBopMdsWeiboFinaAmount
+      api-1-19: 119,getJcCustomerSummary
+      api-1-20: 120,getFinanceIncome
+      api-1-21: 121,bop_mds_fans_superfans_economy
+      api-1-22: 122,bop_ods_jc_everyhour_consume_final
+      tbl: 1-1-1,1-2-1,1-3-1,1-4-1,1-5-1,1-6-1,1-7-1,1-8-1,1-9-1,1-10-1,1-11-1,1-12-1,1-13-1,1-14-1,1-15-1,1-16-1,1-17-1,1-18-1,1-19-1,1-20-1,1-21-1,1-22-1
+      tbl-1-1-1: 111,bop_ads_ka_contract_detail,KA合同明细表,detail
+      tbl-1-2-1: 121,bop_ads_achievement_summary,KA业绩汇总表,summary
+      tbl-1-3-1: 131,bop_ads_ebs_consume,EBS收入消耗表,consume
+      tbl-1-4-1: 141,bop_ads_ebs_consume,EBS收入消耗表,consume
+      tbl-1-5-1: 151,bop_ads_ebs_daily_canal_day,EBS渠道维度日报表,ebsdailycanalday
+      tbl-1-6-1: 161,bop_ads_ebs_daily_canal_week,EBS渠道维度周报表,ebsdailycanalweek
+      tbl-1-7-1: 171,bop_ads_ebs_daily_canal_quarter,EBS渠道维度季报表,ebsdailycanalquarter
+      tbl-1-8-1: 181,bop_ads_ebs_daily_agent_quarter,EBS代理商维度季报表,ebsagentquarterlyreport
+      tbl-1-9-1: 191,bop_ads_ebs_daily_agent_week,EBS代理商维度周报表,ebsagentweeklyreport
+      tbl-1-10-1: 1101,bop_ads_ebs_daily_agent_day,EBS代理商维度日报表,ebsagentdailyreport
+      tbl-1-11-1: 1111,bop_mds_dim_agent_arean,EBS大区渠道维度表,dimagentarean
+      tbl-1-12-1: 1121,bop_mds_contract_detail,业务分析合同明细表,contractdetail
+      tbl-1-13-1: 1131,bop_ads_consume_ecpm,业务分析消耗ecpm表,adsconsumeecpm
+      tbl-1-14-1: 1141,bop_ads_cash_ecpm,业务分析现金ecpm表,adscashecpm
+      tbl-1-15-1: 1151,bop_ads_income_tax,业务分析收入表,adsincometax
+      tbl-1-16-1: 1161,bop_log,KPI系统日志表,log
+      tbl-1-17-1: 1171,getBopMdsDimNetIncomeSettlement,代理商返点明细表,incomeSettlement
+      tbl-1-18-1: 1181,bop_mds_weibo_fina_amount,财务合同收入明细表,weiboFinaAmount
+      tbl-1-19-1: 1191,bop_mds_jc_customer_summary,聚财客户汇总,jccustomersummary
+      tbl-1-20-1: 1201,bop_ads_finance_income,财务总收入表,adsfinanceincome
+      tbl-1-21-1: 1211,bop_mds_fans_superfans_economy,粉丝通-超级粉丝通-粉丝头条汇总表,bop_mds_fans_superfans_economy
+      tbl-1-22-1: 1211,bop_ods_jc_everyhour_consume_final,聚财每小时消耗明细,bop_ods_jc_everyhour_consume_final
+      col: 1-1-1-1,1-1-1-2,1-1-1-3,1-1-1-4,1-1-1-5,1-1-1-6,1-1-1-7,1-1-1-8,1-1-1-9,1-1-1-10,1-1-1-11,
+        1-1-1-12,1-1-1-13,1-1-1-14,1-1-1-15,1-1-1-16,1-1-1-17,1-1-1-18,1-1-1-19,1-1-1-20,1-1-1-21,1-1-1-22,
+        1-1-1-23,1-1-1-24,1-1-1-25,1-1-1-26,1-1-1-27,1-1-1-28,1-1-1-29,1-1-1-30,1-1-1-31,1-1-1-32,1-1-1-33,
+        1-1-1-34,1-1-1-35,1-1-1-36,1-1-1-37,1-1-1-38,1-1-1-39,1-1-1-40,1-1-1-41,1-1-1-42,1-1-1-43,1-2-1-1,1-2-1-2,1-2-1-3,
+        1-2-1-4,1-2-1-5,1-2-1-6,1-2-1-7,1-2-1-8,1-2-1-9,1-2-1-10,1-2-1-11,1-3-1-1,1-3-1-2,1-3-1-3,1-3-1-4,
+        1-3-1-5,1-3-1-6,1-3-1-7,1-3-1-8,1-3-1-9,1-3-1-10,1-3-1-11,1-3-1-12,1-3-1-13,1-3-1-14,1-4-1-1,1-4-1-2,1-4-1-3,
+        1-4-1-4,1-4-1-5,1-4-1-6,1-4-1-7,1-4-1-8,1-4-1-9,1-4-1-10,1-4-1-11,1-4-1-12,1-4-1-13,1-4-1-14,1-5-1-1,1-5-1-2,
+        1-5-1-3,1-5-1-4,1-5-1-5,1-5-1-6,1-5-1-7,1-5-1-8,1-5-1-9,1-5-1-10,1-5-1-11,1-5-1-12,1-5-1-13,1-5-1-14,
+        1-5-1-15,1-5-1-16,1-5-1-17,1-5-1-18,1-5-1-19,1-6-1-1,1-6-1-2,1-6-1-3,1-6-1-4,1-6-1-5,1-6-1-6,1-6-1-7,1-6-1-8,
+        1-6-1-9,1-6-1-10,1-6-1-11,1-6-1-12,1-6-1-13,1-6-1-14,1-6-1-15,1-6-1-16,1-6-1-17,1-6-1-18,1-6-1-19,1-7-1-1,
+        1-7-1-2,1-7-1-3,1-7-1-4,1-7-1-5,1-7-1-6,1-7-1-7,1-7-1-8,1-7-1-9,1-7-1-10,1-7-1-11,1-7-1-12,1-7-1-13,
+        1-7-1-14,1-7-1-15,1-7-1-16,1-7-1-17,1-7-1-18,1-7-1-19,1-8-1-1,1-8-1-2,1-8-1-3,1-8-1-4,1-8-1-5,1-8-1-6,1-8-1-7,
+        1-8-1-8,1-8-1-9,1-8-1-10,1-8-1-11,1-8-1-12,1-8-1-13,1-8-1-14,1-8-1-15,1-8-1-16,1-8-1-17,1-8-1-18,
+        1-8-1-19,1-8-1-21,1-8-1-22,1-8-1-23,1-8-1-24,1-8-1-25,1-8-1-26,1-8-1-27,1-8-1-28,1-8-1-29,
+        1-8-1-30,1-8-1-31,1-8-1-32,1-8-1-33,1-8-1-34,1-8-1-35,1-9-1-1,1-9-1-2,1-9-1-3,1-9-1-4,1-9-1-5,1-9-1-6,1-9-1-7,
+        1-9-1-8,1-9-1-9,1-9-1-10,1-9-1-11,1-9-1-12,1-9-1-13,1-9-1-14,1-9-1-15,1-9-1-16,1-9-1-17,1-9-1-18,1-9-1-19,
+        1-9-1-20,1-9-1-21,1-9-1-22,1-9-1-23,1-9-1-24,1-9-1-25,1-9-1-26,1-9-1-27,1-9-1-28,1-9-1-29,1-9-1-30,
+        1-9-1-31,1-9-1-32,1-9-1-33,1-9-1-34,1-9-1-35,1-10-1-1,1-10-1-2,1-10-1-3,1-10-1-4,1-10-1-5,1-10-1-6,1-10-1-7,
+        1-10-1-8,1-10-1-9,1-10-1-10,1-10-1-11,1-10-1-12,1-10-1-13,1-10-1-14,1-10-1-15,1-10-1-16,1-10-1-17,
+        1-10-1-18,1-10-1-19,1-10-1-20,1-10-1-21,1-10-1-22,1-10-1-23,1-10-1-24,1-10-1-25,1-10-1-26,1-10-1-27,
+        1-10-1-28,1-10-1-29,1-10-1-30,1-10-1-31,1-10-1-32,1-10-1-33,1-10-1-34,1-10-1-35,1-11-1-1,1-11-1-2,1-11-1-3,1-11-1-4,1-11-1-5,1-11-1-6,1-11-1-7,1-11-1-8,1-11-1-9,
+        1-12-1-1,1-12-1-2,1-12-1-3,1-12-1-4,1-12-1-5,1-12-1-6,1-12-1-7,1-12-1-8,1-12-1-9,1-12-1-10,1-12-1-11,
+        1-12-1-12,1-12-1-13,1-12-1-14,1-12-1-15,1-12-1-16,1-12-1-17,1-12-1-18,1-12-1-19,1-12-1-20,1-12-1-21,
+        1-12-1-22,1-12-1-23,1-12-1-24,1-12-1-25,1-12-1-26,1-12-1-27,1-12-1-28,1-12-1-29,1-12-1-30,1-12-1-31,
+        1-12-1-32,1-12-1-33,1-12-1-34,1-12-1-35,1-12-1-36,1-12-1-37,1-12-1-38,1-12-1-39,1-13-1-1,1-13-1-2,
+        1-13-1-3,1-13-1-4,1-13-1-5,1-13-1-6,1-13-1-7,1-13-1-8,1-13-1-9,1-13-1-10,1-13-1-11,1-13-1-12,1-14-1-1,1-14-1-2,1-14-1-3,
+        1-14-1-4,1-14-1-5,1-14-1-6,1-14-1-7,1-14-1-8,1-14-1-9,1-14-1-10,1-14-1-11,1-14-1-12,1-15-1-1,1-15-1-2,1-15-1-3,1-15-1-4,
+        1-15-1-5,1-15-1-6,1-15-1-7,1-15-1-8,1-15-1-9,1-15-1-10,1-15-1-11,1-15-1-12,1-15-1-13,1-15-1-14,1-15-1-15,
+        1-15-1-16,1-15-1-17,1-16-1-1,1-16-1-2,1-16-1-3,1-16-1-4,1-16-1-5,1-16-1-6,1-16-1-7,1-16-1-8,1-16-1-9,
+        1-17-1-1,1-17-1-2,1-17-1-3,1-17-1-4,1-17-1-5,1-18-1-1,1-18-1-2,1-18-1-3,1-18-1-4,1-18-1-5,1-18-1-6,1-18-1-7,1-18-1-8,1-18-1-9,1-18-1-10,
+        1-18-1-11,1-18-1-12,1-18-1-13,1-18-1-14,1-18-1-15,1-18-1-16,1-18-1-17,1-18-1-18,1-18-1-19,1-18-1-20,
+        1-18-1-21,1-18-1-22,1-18-1-23,1-18-1-24,1-18-1-25,1-18-1-26,1-18-1-27,1-18-1-28,1-18-1-29,1-18-1-30,
+        1-18-1-31,1-18-1-32,1-18-1-33,1-18-1-34,1-18-1-35,1-18-1-36,1-18-1-37,1-18-1-38,1-18-1-39,1-18-1-40,
+        1-18-1-41,1-18-1-42,1-18-1-43,1-18-1-44,1-18-1-45,1-18-1-46,1-18-1-47,1-18-1-48,1-18-1-49,1-18-1-50,
+        1-18-1-51,1-18-1-52,1-18-1-53,1-18-1-54,1-18-1-55,1-18-1-56,1-18-1-57,1-18-1-58,1-18-1-59,1-18-1-60,
+        1-18-1-61,1-18-1-62,1-18-1-63,1-18-1-64,1-18-1-65,1-18-1-66,1-18-1-67,1-18-1-68,1-18-1-69,1-18-1-70,
+        1-18-1-71,1-18-1-72,1-18-1-73,1-18-1-74,1-18-1-75,1-18-1-76,1-19-1-1,1-19-1-2,1-19-1-3,1-19-1-4,1-19-1-5,1-19-1-6,1-19-1-7,1-19-1-8,1-19-1-9,
+        1-19-1-10,1-19-1-11,1-19-1-12,1-19-1-13,1-19-1-14,1-19-1-15,1-19-1-16,1-19-1-17,1-19-1-18,1-19-1-19,1-19-1-20,
+        1-20-1-1,1-20-1-2,1-20-1-3,1-20-1-4,1-20-1-5,1-20-1-6,1-20-1-7,1-21-1-1,1-21-1-2,1-21-1-3,1-21-1-4,
+        1-21-1-5,1-21-1-6,1-21-1-7,1-21-1-8,1-21-1-9,1-21-1-10,1-21-1-11,1-21-1-12,1-21-1-13,1-21-1-14,1-21-1-15,
+        1-21-1-16,1-21-1-17,1-21-1-18,1-21-1-19,1-22-1-1,1-22-1-2,1-22-1-3,1-22-1-4,1-22-1-5,1-22-1-6,1-22-1-7,
+        1-22-1-8,1-22-1-9,1-22-1-10,1-22-1-11,1-22-1-12,1-22-1-13,1-22-1-14,1-22-1-15,1-22-1-16,1-22-1-17,1-22-1-18,1-22-1-19
+      col-1-1-1-1: 1,finance_month,月份,finance_month
+      col-1-1-1-2: 2,orderno,合同号,orderno
+      col-1-1-1-3: 3,region,区域,region
+      col-1-1-1-4: 4,sales_group_manager,销售组长,sales_group_manager
+      col-1-1-1-5: 5,sales_group_manager_id,销售组长ID,sales_group_manager_id
+      col-1-1-1-6: 6,finance_year,财务年,finance_year
+      col-1-1-1-7: 7,finance_quarter,季度,finance_quarter
+      col-1-1-1-8: 8,username,销售,username
+      col-1-1-1-9: 9,username_id,销售ID,username_id
+      col-1-1-1-10: 10,am_name,AM_姓名,am_name
+      col-1-1-1-11: 11,am_id,AM_ID,am_id
+      col-1-1-1-12: 12,cs_name,媒介,cs_name
+      col-1-1-1-13: 13,medium_id,媒介工号,medium_id
+      col-1-1-1-14: 14,ordername,合同名称,ordername
+      col-1-1-1-15: 15,ourunit,我方签约公司,ourunit
+      col-1-1-1-16: 16,directaccount,广告主,directaccount
+      col-1-1-1-17: 17,directaccount_brief,广告主简称,directaccount_brief
+      col-1-1-1-18: 18,account,代理商名称,account
+      col-1-1-1-19: 19,directaccountid,uid,directaccountid
+      col-1-1-1-20: 20,keyword,关键词,keyword
+      col-1-1-1-21: 21,ad_city,广告城市,ad_city
+      col-1-1-1-22: 22,industry_lev1,行业1级,industry_lev1
+      col-1-1-1-23: 23,industry_lev2,行业2级,industry_lev2
+      col-1-1-1-24: 24,industry_lev3,行业3级,industry_lev3
+      col-1-1-1-25: 25,industry_lev4,行业4级,industry_lev4
+      col-1-1-1-26: 26,sign_date,签约时间,sign_date
+      col-1-1-1-27: 27,excute_date,执行时间,excute_date
+      col-1-1-1-28: 28,close_date,结束时间,close_date
+      col-1-1-1-29: 29,wflg_date,送审时间,wflg_date
+      col-1-1-1-30: 30,soif_state_name,合同状态,soif_state_name
+      col-1-1-1-31: 31,soif_type_name,合同类型,soif_type_name
+      col-1-1-1-32: 32,listtotal,合同签约金额,listtotal
+      col-1-1-1-33: 33,suit_name,套装,suit_name
+      col-1-1-1-34: 34,project_name,项目,project_name
+      col-1-1-1-35: 35,sale_amount,合同售卖金额,sale_amount
+      col-1-1-1-36: 36,fina_amount,财务收入金额,fina_amount
+      col-1-1-1-37: 37,atmonth,财务计收时间,atmonth
+      col-1-1-1-38: 38,contract_filing_date,合同归档时间,contract_filing_date
+      col-1-1-1-39: 39,qua_filing_if,本季度是否归档,qua_filing_if
+      col-1-1-1-40: 40,qua_received_if,本季度是否回款,qua_received_if
+      col-1-1-1-41: 41,id,id,id
+      col-1-1-1-42: 42,accumreceive,累计回款,accumreceive
+      col-1-1-1-43: 43,outstadingfounds,未到款,outstadingfounds
+      col-1-2-1-1: 1,finance_year,财务年,finance_year
+      col-1-2-1-2: 2,finance_quarter,季度,finance_quarter
+      col-1-2-1-3: 3,finance_month,月份,finance_month
+      col-1-2-1-4: 4,region,区域,region
+      col-1-2-1-5: 5,sales_group_manager,销售组长,sales_group_manager
+      col-1-2-1-6: 6,sales_group_manager_id,销售组长ID,sales_group_manager_id
+      col-1-2-1-7: 7,username,销售,username
+      col-1-2-1-8: 8,username_id,销售ID,username_id
+      col-1-2-1-9: 9,listtotal,合同签约金额,listtotal
+      col-1-2-1-10: 10,fina_amount,财务收入金额,fina_amount
+      col-1-2-1-11: 11,id,id,id
+      col-1-3-1-1: 1,advertiserconsume_date,日期,advertiserconsume_date
+      col-1-3-1-2: 2,advertiser_uid,微博UID,advertiser_uid
+      col-1-3-1-3: 3,advertiser_weibo_nickname,客户微博昵称,advertiser_weibo_nickname
+      col-1-3-1-4: 4,agent_company,代理商公司名,agent_company
+      col-1-3-1-5: 5,region,区域,region
+      col-1-3-1-6: 6,sales_leader,销售组长,sales_leader
+      col-1-3-1-7: 7,sales_leader_no,销售组长工号,sales_leader_no
+      col-1-3-1-8: 8,sales,销售,sales
+      col-1-3-1-9: 9,sales_no,销售工号,sales_no
+      col-1-3-1-10: 10,norm,产品,norm
+      col-1-3-1-11: 11,eff_consume,有效消耗,eff_consume
+      col-1-3-1-12: 12,selected_principal_consumed,现金,selected_principal_consumed
+      col-1-3-1-13: 13,id,id,id
+      col-1-3-1-14: 14,order_no,order_no,order_no
+      col-1-4-1-1: 1,advertiserconsume_date,日期,advertiserconsume_date
+      col-1-4-1-2: 2,advertiser_uid,微博UID,advertiser_uid
+      col-1-4-1-3: 3,advertiser_weibo_nickname,客户微博昵称,advertiser_weibo_nickname
+      col-1-4-1-4: 4,agent_company,代理商公司名,agent_company
+      col-1-4-1-5: 5,region,区域,region
+      col-1-4-1-6: 6,sales_leader,销售组长,sales_leader
+      col-1-4-1-7: 7,sales_leader_no,销售组长工号,sales_leader_no
+      col-1-4-1-8: 8,sales,销售,sales
+      col-1-4-1-9: 9,sales_no,销售工号,sales_no
+      col-1-4-1-10: 10,norm,产品,norm
+      col-1-4-1-11: 11,eff_consume,有效消耗,eff_consume
+      col-1-4-1-12: 12,selected_principal_consumed,现金,selected_principal_consumed
+      col-1-4-1-13: 13,id,id,id
+      col-1-4-1-14: 14,order_no,order_no,order_no
+      col-1-5-1-1 : 1,id,id,id
+      col-1-5-1-2 : 2,area,大区,area
+      col-1-5-1-3 : 3,canal,渠道,canal
+      col-1-5-1-4 : 4,economy_consume_day,粉丝经济消耗_日,economy_consume
+      col-1-5-1-5 : 5,super_fan_consume_day,粉丝通消耗_日,super_fan_consume
+      col-1-5-1-6 : 6,consume_total_day,总消耗_日,consume_total
+      col-1-5-1-7 : 7,consume_total_rank_day,消耗排名_日,consume_total_rank
+      col-1-5-1-8 : 8,cash_mod_day,现金系数_日,cash_mod
+      col-1-5-1-9 : 9,cash_income_day,现金收入_日,cash_income
+      col-1-5-1-10 : 10,cash_income_rank_day,现金收入排名_日,cash_income_rank
+      col-1-5-1-11 : 11,consumed_adv_num,有消耗客户数,consumed_adv_num
+      col-1-5-1-12 : 12,consumed_adv_num_arpa,有消耗客户数ARPA,consumed_adv_num_arpa
+      col-1-5-1-13 : 13,new_create_adv_num,新开客户数,new_create_adv_num
+      col-1-5-1-14 : 14,super_fan_pv_day,粉丝通曝光量_日,super_fan_pv
+      col-1-5-1-15 : 15,super_fan_ecpm_day,粉丝通千次曝光收入_日,super_fan_ecpm
+      col-1-5-1-16 : 16,super_fan_acpe_day,粉丝通单次转化成本_日,super_fan_acpe
+      col-1-5-1-17 : 17,date,日期,date
+      col-1-5-1-18 : 18,finance_quarter,所属财务季,finance_quarter
+      col-1-5-1-19 : 19,super_fan_iv,互动数,super_fan_iv
+      col-1-6-1-1 : 1,id,id,id
+      col-1-6-1-2 : 2,area,大区,area
+      col-1-6-1-3 : 3,canal,渠道,canal
+      col-1-6-1-4 : 4,economy_consume_week,粉丝经济消耗_周,economy_consume
+      col-1-6-1-5 : 5,super_fan_consume_week,粉丝通消耗_周,super_fan_consume
+      col-1-6-1-6 : 6,consume_total_week,总消耗_周,consume_total
+      col-1-6-1-7 : 7,consume_total_rank_week,消耗排名_周,consume_total_rank
+      col-1-6-1-8 : 8,cash_mod_week,现金系数_周,cash_mod
+      col-1-6-1-9 : 9,cash_income_week,现金收入_周,cash_income
+      col-1-6-1-10 : 10,cash_income_rank_week,现金收入排名_周,cash_income_rank
+      col-1-6-1-11 : 11,consumed_adv_num,有消耗客户数,consumed_adv_num
+      col-1-6-1-12 : 12,consumed_adv_num_arpa,有消耗客户数ARPA,consumed_adv_num_arpa
+      col-1-6-1-13 : 13,new_create_adv_num,新开客户数,new_create_adv_num
+      col-1-6-1-14 : 14,super_fan_pv_week,粉丝通曝光量_周,super_fan_pv
+      col-1-6-1-15 : 15,super_fan_ecpm_week,粉丝通千次曝光收入_周,super_fan_ecpm
+      col-1-6-1-16 : 16,super_fan_acpe_week,粉丝通单次转化成本_周,super_fan_acpe
+      col-1-6-1-17 : 17,date,日期,date
+      col-1-6-1-18 : 18,finance_quarter,所属财务季,finance_quarter
+      col-1-6-1-19 : 19,super_fan_iv,互动数,super_fan_iv
+      col-1-7-1-1 : 1,id,id,id
+      col-1-7-1-2 : 2,area,大区,area
+      col-1-7-1-3 : 3,canal,渠道,canal
+      col-1-7-1-4 : 4,economy_consume_quarter,粉丝经济消耗_季,economy_consume
+      col-1-7-1-5 : 5,super_fan_consume_quarter,粉丝通消耗_季,super_fan_consume
+      col-1-7-1-6 : 6,consume_total_quarter,总消耗_季,consume_total
+      col-1-7-1-7 : 7,consume_total_rank_quarter,消耗排名_季,consume_total_rank
+      col-1-7-1-8 : 8,cash_mod_quarter,现金系数_季,cash_mod
+      col-1-7-1-9 : 9,cash_income_quarter,现金收入_季,cash_income
+      col-1-7-1-10 : 10,cash_income_rank_quarter,现金收入排名_季,cash_income_rank
+      col-1-7-1-11 : 11,consumed_adv_num,有消耗客户数,consumed_adv_num
+      col-1-7-1-12 : 12,consumed_adv_num_arpa,有消耗客户数ARPA,consumed_adv_num_arpa
+      col-1-7-1-13 : 13,new_create_adv_num,新开客户数,new_create_adv_num
+      col-1-7-1-14 : 14,super_fan_pv_quarter,粉丝通曝光量_日,super_fan_pv
+      col-1-7-1-15 : 15,super_fan_ecpm_quarter,粉丝通千次曝光收入_季,super_fan_ecpm
+      col-1-7-1-16 : 16,super_fan_acpe_quarter,粉丝通单次转化成本_季,super_fan_acpe
+      col-1-7-1-17 : 17,date,日期,date
+      col-1-7-1-18 : 18,finance_quarter,所属财务季,finance_quarter
+      col-1-7-1-19 : 19,super_fan_iv,互动数,super_fan_iv
+
+      #bop_ads_ebs_daily_agent_quarter,EBS代理商维度季报表
+      col-1-8-1-1 : 1,area,大区,area
+      col-1-8-1-2 : 2,canal,渠道,canal
+      col-1-8-1-3 : 3,agent,代理,agent
+      col-1-8-1-4 : 4,order_no,合同号,orderNo
+      col-1-8-1-5 : 5,place_area,地理分区,placeArea
+      col-1-8-1-6 : 6,economy_consume_quarter,粉丝经济消耗_季,economyConsume
+      col-1-8-1-7 : 7,super_fan_consume_quarter,粉丝通消耗_季,superFanConsume
+      col-1-8-1-8 : 8,consume_total_quarter,总消耗_季,consumeTotal
+      col-1-8-1-9 : 9,consume_total_rank_quarter,消耗排名_季,consumeTotalRank
+      col-1-8-1-10 : 10,cash_mod_quarter,现金系数_季,cashMod
+      col-1-8-1-11 : 11,cash_income_quarter,现金收入_季,cashIncome
+      col-1-8-1-12 : 12,cash_income_rank_quarter,现金收入排名_季,cashIncomeRank
+      col-1-8-1-13 : 13,consumed_adv_num,有消耗客户数,consumedAdvNum
+      col-1-8-1-14 : 14,consumed_adv_num_arpa,有消耗客户数ARPA,consumedAdvNumArpa
+      col-1-8-1-15 : 15,new_create_adv_num,新开客户数,newCreateAdvNum
+      col-1-8-1-16 : 16,super_fan_pv_quarter,粉丝通曝光量_季,superFanPv
+      col-1-8-1-17 : 17,super_fan_ecpm_quarter,粉丝通ecpm_季,superFanEcpm
+      col-1-8-1-18 : 18,super_fan_acpe_quarter,粉丝通acpe_季,superFanAcpe
+      col-1-8-1-19 : 19,balance,余额,balance
+      col-1-8-1-21 : 21,advertiserconsume_date,日期,advertiserconsumeDate
+      col-1-8-1-22 : 22,year,年,year
+      col-1-8-1-23 : 23,month_quarter,月日,month
+      col-1-8-1-24 : 24,finance_quarter,所属财务季,financeQuarter
+      col-1-8-1-25 : 25,tb_consume_total_quarter,总消耗,tbConsumeTotal
+      col-1-8-1-26 : 26,tb_super_fan_consume_quarter,粉丝通消耗,tbSuperFanConsume
+      col-1-8-1-27 : 27,tb_super_fan_pv_quarter,粉丝通曝光量,tbSuperFanPv
+      col-1-8-1-28 : 28,tb_super_fan_ecpm_quarter,粉丝通ecpm,tbSuperFanEcpm
+      col-1-8-1-29 : 29,tb_economy_consume_quarter,粉丝经济消耗,tbEconomyConsume
+      col-1-8-1-30 : 30,hb_consume_total_quarter,总消耗,hbConsumeTotal
+      col-1-8-1-31 : 31,hb_super_fan_consume_quarter,粉丝通消耗,hbSuperFanConsume
+      col-1-8-1-32 : 32,hb_super_fan_pv_quarter,粉丝通曝光量,hbSuperFanPv
+      col-1-8-1-33 : 33,hb_super_fan_ecpm_quarter,粉丝通ecpm,hbSuperFanEcpm
+      col-1-8-1-34 : 34,hb_economy_consume_quarter,粉丝经济消耗,hbEconomyConsume
+      col-1-8-1-35 : 35,id,id,id
+
+      #bop_ads_ebs_daily_agent_week,EBS代理商维度周报表
+      col-1-9-1-1 : 1,area,大区,area
+      col-1-9-1-2 : 2,canal,渠道,canal
+      col-1-9-1-3 : 3,agent,代理,agent
+      col-1-9-1-4 : 4,order_no,合同号,orderNo
+      col-1-9-1-5 : 5,place_area,地理分区,placeArea
+      col-1-9-1-6 : 6,economy_consume_week,粉丝经济消耗_周,economyConsume
+      col-1-9-1-7 : 7,super_fan_consume_week,粉丝通消耗_周,superFanConsume
+      col-1-9-1-8 : 8,consume_total_week,总消耗_周,consumeTotal
+      col-1-9-1-9 : 9,consume_total_rank_week,消耗排名_周,consumeTotalRank
+      col-1-9-1-10 : 10,cash_mod_week,现金系数_周,cashMod
+      col-1-9-1-11 : 11,cash_income_week,现金收入_周,cashIncome
+      col-1-9-1-12 : 12,cash_income_rank_week,现金收入排名_周,cashIncomeRank
+      col-1-9-1-13 : 13,consumed_adv_num,有消耗客户数,consumedAdvNum
+      col-1-9-1-14 : 14,consumed_adv_num_arpa,有消耗客户数ARPA,consumedAdvNumArpa
+      col-1-9-1-15 : 15,new_create_adv_num,新开客户数,newCreateAdvNum
+      col-1-9-1-16 : 16,super_fan_pv_week,粉丝通曝光量_周,superFanPv
+      col-1-9-1-17 : 17,super_fan_ecpm_week,粉丝通ecpm_周,superFanEcpm
+      col-1-9-1-18 : 18,super_fan_acpe_week,粉丝通acpe_周,superFanAcpe
+      col-1-9-1-19 : 19,balance,余额,balance
+      col-1-9-1-20 : 20,week_v,周v值,weekV
+      col-1-9-1-21 : 21,advertiserconsume_date,周期,advertiserconsumeDate
+      col-1-9-1-22 : 22,year,年,year
+      col-1-9-1-23 : 23,month_week,月日,month
+      col-1-9-1-24 : 24,finance_quarter,所属财务季,financeQuarter
+      col-1-9-1-25 : 25,tb_consume_total_week,总消耗,tbConsumeTotal
+      col-1-9-1-26 : 26,tb_super_fan_consume_week,粉丝通消耗,tbSuperFanConsume
+      col-1-9-1-27 : 27,tb_super_fan_pv_week,粉丝通曝光量,tbSuperFanPv
+      col-1-9-1-28 : 28,tb_super_fan_ecpm_week,粉丝通ecpm,tbSuperFanEcpm
+      col-1-9-1-29 : 29,tb_economy_consume_week,粉丝经济消耗,tbEconomyConsume
+      col-1-9-1-30 : 30,hb_consume_total_week,总消耗,hbConsumeTotal
+      col-1-9-1-31 : 31,hb_super_fan_consume_week,粉丝通消耗,hbSuperFanConsume
+      col-1-9-1-32 : 32,hb_super_fan_pv_week,粉丝通曝光量,hbSuperFanPv
+      col-1-9-1-33 : 33,hb_super_fan_ecpm_week,粉丝通ecpm,hbSuperFanEcpm
+      col-1-9-1-34 : 34,hb_economy_consume_week,粉丝经济消耗,hbEconomyConsume
+      col-1-9-1-35 : 35,id,id,id
+
+      #bop_ads_ebs_daily_agent_day,EBS代理商维度日报表
+      col-1-10-1-1 : 1,area,大区,area
+      col-1-10-1-2 : 2,canal,渠道,canal
+      col-1-10-1-3 : 3,agent,代理,agent
+      col-1-10-1-4 : 4,order_no,合同号,orderNo
+      col-1-10-1-5 : 5,place_area,地理分区,placeArea
+      col-1-10-1-6 : 6,economy_consume_day,粉丝经济消耗_日,economyConsume
+      col-1-10-1-7 : 7,super_fan_consume_day,粉丝通消耗_日,superFanConsume
+      col-1-10-1-8 : 8,consume_total_day,总消耗_日,consumeTotal
+      col-1-10-1-9 : 9,consume_total_rank_day,消耗排名_日,consumeTotalRank
+      col-1-10-1-10 : 10,cash_mod_day,现金系数_日,cashMod
+      col-1-10-1-11 : 11,cash_income_day,现金收入_日,cashIncome
+      col-1-10-1-12 : 12,cash_income_rank_day,现金收入排名_日,cashIncomeRank
+      col-1-10-1-13 : 13,consumed_adv_num,有消耗客户数,consumedAdvNum
+      col-1-10-1-14 : 14,consumed_adv_num_arpa,有消耗客户数ARPA,consumedAdvNumArpa
+      col-1-10-1-15 : 15,new_create_adv_num,新开客户数,newCreateAdvNum
+      col-1-10-1-16 : 16,super_fan_pv_day,粉丝通曝光量_日,superFanPv
+      col-1-10-1-17 : 17,super_fan_ecpm_day,粉丝通ecpm_日,superFanEcpm
+      col-1-10-1-18 : 18,super_fan_acpe_day,粉丝通acpe_日,superFanAcpe
+      col-1-10-1-19 : 19,balance,余额,balance
+      col-1-10-1-20 : 20,week_v,周v值,weekV
+      col-1-10-1-21 : 21,advertiserconsume_date,日期,advertiserconsumeDate
+      col-1-10-1-22 : 22,year,年,year
+      col-1-10-1-23 : 23,month_day,月日,month
+      col-1-10-1-24 : 24,finance_quarter,所属财务季,financeQuarter
+      col-1-10-1-25 : 25,tb_consume_total_day,总消耗,tbConsumeTotal
+      col-1-10-1-26 : 26,tb_super_fan_consume_day,粉丝通消耗,tbSuperFanConsume
+      col-1-10-1-27 : 27,tb_super_fan_pv_day,粉丝通曝光量,tbSuperFanPv
+      col-1-10-1-28 : 28,tb_super_fan_ecpm_day,粉丝通ecpm,tbSuperFanEcpm
+      col-1-10-1-29 : 29,tb_economy_consume_day,粉丝经济消耗,tbEconomyConsume
+      col-1-10-1-30 : 30,hb_consume_total_day,总消耗,hbConsumeTotal
+      col-1-10-1-31 : 31,hb_super_fan_consume_day,粉丝通消耗,hbSuperFanConsume
+      col-1-10-1-32 : 32,hb_super_fan_pv_day,粉丝通曝光量,hbSuperFanPv
+      col-1-10-1-33 : 33,hb_super_fan_ecpm_day,粉丝通ecpm,hbSuperFanEcpm
+      col-1-10-1-34 : 34,hb_economy_consume_day,粉丝经济消耗,hbEconomyConsume
+      col-1-10-1-35 : 35,id,id,id
+
+      #大区渠道维度信息表
+      col-1-11-1-1 : 1,agentname,聚财代理商名称,agentName
+      col-1-11-1-2 : 2,crmagentname,CRM代理商名称,crmAgentName
+      col-1-11-1-3 : 3,contractno,合同号,contractno
+      col-1-11-1-4 : 4,jcuid,聚财UID,jcuid
+      col-1-11-1-5 : 5,area,大区,area
+      col-1-11-1-6 : 6,canal,渠道,canal
+      col-1-11-1-7 : 7,place_area,地理分区,placeArea
+      col-1-11-1-8 : 8,business_area,业务分区,businessArea
+      col-1-11-1-9 : 9,id,id,id
+
+      #业务分析合同明细表
+      col-1-12-1-1 : 1,id,id,id
+      col-1-12-1-2 : 2,post_month,财务月,post_month
+      col-1-12-1-3 : 3,post_quarter,财务季,post_quarter
+      col-1-12-1-4 : 4,order_no,合同编号,order_no
+      col-1-12-1-5 : 5,ordername,合同名称,ordername
+      col-1-12-1-6 : 6,soif_state_name,合同状态,soif_state_name
+      col-1-12-1-7 : 7,subindustry,合同行业,subindustry
+      col-1-12-1-8 : 8,directaccount,广告主,directaccount
+      col-1-12-1-9 : 9,directaccountid,广告主ID,directaccountid
+      col-1-12-1-10 : 10,account,代理商,account
+      col-1-12-1-11 : 11,accountid,代理商ID,accountid
+      col-1-12-1-12 : 12,post_date,日期,post_date
+      col-1-12-1-13 : 13,username,销售,username
+      col-1-12-1-14 : 14,product_level1,产品一级,product_level1
+      col-1-12-1-15 : 15,product_level2,产品二级,product_level2
+      col-1-12-1-16 : 16,product_level3,产品三级,product_level3
+      col-1-12-1-17 : 17,business_level1,业务一级,business_level1
+      col-1-12-1-18 : 18,business_level2,业务二级,business_level2
+      col-1-12-1-19 : 19,business_level3,业务三级,business_level3
+      col-1-12-1-20 : 20,business_level4,业务四级,business_level4
+      col-1-12-1-21 : 21,finance_level1,财务一级,finance_level1
+      col-1-12-1-22 : 22,finance_level2,财务二级,finance_level2
+      col-1-12-1-23 : 23,finance_level3,财务三级,finance_level3
+      col-1-12-1-24 : 24,finance_level4,财务四级,finance_level4
+      col-1-12-1-25 : 25,stan_sale_amount,标准售卖金额,stan_sale_amount
+      col-1-12-1-26 : 26,nostan_sale_amount,非标售卖金额,nostan_sale_amount
+      col-1-12-1-27 : 27,stan_donate_amount,标准配送金额,stan_donate_amount
+      col-1-12-1-28 : 28,nostan_donate_amount,非标配送金,nostan_donate_amount
+      col-1-12-1-29 : 29,listtotal,合同签约金额,listtotal
+      col-1-12-1-30 : 30,sale_amount,合同售卖金额,sale_amount
+      col-1-12-1-31 : 31,fina_amount,财务收入金额,fina_amount
+      col-1-12-1-32 : 32,price,点数消耗,price
+      col-1-12-1-33 : 33,contractexp,曝光合同,contractexp
+      col-1-12-1-34 : 34,impression_cnt,曝光次数,impression_cnt
+      col-1-12-1-35 : 35,source_come,数据来源,source_come
+      col-1-12-1-36 : 36,exposuremonth,曝光所在月,exposuremonth
+      col-1-12-1-37 : 37,exposurequarter,曝光所在季,exposurequarter
+      col-1-12-1-38 : 38,ifnoexpos,合同与曝光是否同一个月,ifnoexpos
+      col-1-12-1-39 : 39,ecpmflag,是否计算ECPM,ecpmflag
+
+      #消耗ecpm
+      col-1-13-1-1 : 1,id,id,id
+      col-1-13-1-2 : 2,post_year,财务年,post_year
+      col-1-13-1-3 : 3,post_quarter,财务季,post_quarter
+      col-1-13-1-4 : 4,post_month,财务月,post_month
+      col-1-13-1-5 : 5,post_week,财务周,post_week
+      col-1-13-1-6 : 6,post_date,日期,post_date
+      col-1-13-1-7 : 7,product_line,产品线,product_line
+      col-1-13-1-8 : 8,consume,消耗,consume
+      col-1-13-1-9 : 9,exposure,曝光,exposure
+      col-1-13-1-10 : 10,consume_ecpm,消耗ecpm,consume_ecpm
+      col-1-13-1-11 : 11,ecpm_sume,ECPM计算消耗,ecpm_sume
+      col-1-13-1-12 : 12,ecpm_expos,ECPM计算曝光,ecpm_expos
+
+      #现金ecpm
+      col-1-14-1-1 : 1,id,id,id
+      col-1-14-1-2 : 2,post_year,财务年,post_year
+      col-1-14-1-3 : 3,post_quarter,财务季,post_quarter
+      col-1-14-1-4 : 4,post_month,财务月,post_month
+      col-1-14-1-5 : 5,post_week,财务周,post_week
+      col-1-14-1-6 : 6,post_date,日期,post_date
+      col-1-14-1-7 : 7,product_line,产品线,product_line
+      col-1-14-1-8 : 8,fina_amount,现金,fina_amount
+      col-1-14-1-9 : 9,exposure,曝光,exposure
+      col-1-14-1-10 : 10,cash_ecpm,现金ecpm,cash_ecpm
+      col-1-14-1-11 : 11,ecpm_sume,现金ECPM计算消耗,ecpm_sume
+      col-1-14-1-12 : 12,ecpm_expos,现金ECPM计算曝光,ecpm_expos
+
+      #收入
+      col-1-15-1-1 : 1,id,id,id
+      col-1-15-1-2 : 2,year,财务年,year
+      col-1-15-1-3 : 3,dayquarter,财务季,dayquarter
+      col-1-15-1-4 : 4,atmonth,财务月,atmonth
+      col-1-15-1-5 : 5,pd_weibocatalogfirst_name,产品一级分类,pd_weibocatalogfirst_name
+      col-1-15-1-6 : 6,pd_weibocatalogsecond_name,产品二级分类,pd_weibocatalogsecond_name
+      col-1-15-1-7 : 7,pd_weibocatalogthree_name,产品三级分类,pd_weibocatalogthree_name
+      col-1-15-1-8 : 8,finance_route_1,财务通路一级,finance_route_1
+      col-1-15-1-9 : 9,finance_route_2,财务通路二级,finance_route_2
+      col-1-15-1-10 : 10,finance_route_3,财务通路三级,finance_route_3
+      col-1-15-1-11 : 11,finance_route_4,财务通四级,finance_route_4
+      col-1-15-1-12 : 12,gross_incometax,毛收入_含税,gross_incometax
+      col-1-15-1-13 : 13,gross_incomenotax,毛收入_不含税,gross_incomenotax
+      col-1-15-1-14 : 14,net_income_tax,净收入_含税,net_income_tax
+      col-1-15-1-15 : 15,net_income_notax,净收入_不含税,net_income_notax
+      col-1-15-1-16 : 16,gross_tax,税_毛税,gross_tax
+      col-1-15-1-17 : 17,tax,税_净税,tax
+
+      #日志上下级
+      col-1-16-1-1 : 1,id,id,id
+      col-1-16-1-2 : 2,name,名字,name
+      col-1-16-1-3 : 3,email,邮箱,email
+      col-1-16-1-4 : 4,userid,工号,userid
+      col-1-16-1-5 : 5,ip,B端ip地址,ip
+      col-1-16-1-6 : 6,operation,操作,operation
+      col-1-16-1-7 : 7,createtime,创建时间,createtime
+      col-1-16-1-8 : 8,remark,备注,remark
+      col-1-16-1-9 : 9,source,KPI来源,source
+
+      col-1-17-1-1 : 1,id,id,id
+      col-1-17-1-2 : 2,day_quarter,所在季度,day_quarter
+      col-1-17-1-3 : 3,orderno,合同号,orderno
+      col-1-17-1-4 : 4,coefficient,净收入系数,coefficient
+      col-1-17-1-5 : 5,settlement_mark,结算标记,settlement_mark
+
+
+      col-1-18-1-1 : 1,id,id,id
+      col-1-18-1-2 : 2,region,区域,region
+      col-1-18-1-3 : 3,corp,公司,corp
+      col-1-18-1-4 : 4,busi_flag,销售通路,busi_flag
+      col-1-18-1-5 : 5,busi_flag_dtl,二级销售通路,busi_flag_dtl
+      col-1-18-1-6 : 6,username,销售人,username
+      col-1-18-1-7 : 7,user_level3,组长,user_level3
+      col-1-18-1-8 : 8,user_level2,群总监,user_level2
+      col-1-18-1-9 : 9,user_level1,区域总监,user_level1
+      col-1-18-1-10 : 10,directaccountid,广告主id,directaccountid
+      col-1-18-1-11 : 11,directaccount,广告主,directaccount
+      col-1-18-1-12 : 12,accountid,代理商id,accountid
+      col-1-18-1-13 : 13,account,代理商,account
+      col-1-18-1-14 : 14,accountfield_1,一级客户行业,accountfield_1
+      col-1-18-1-15 : 15,accountfield_2,二级客户行业,accountfield_2
+      col-1-18-1-16 : 16,ourunit,我方签约公司,ourunit
+      col-1-18-1-17 : 17,bu,BU,bu
+      col-1-18-1-18 : 18,bu_dtl,BU_DTL,bu_dtl
+      col-1-18-1-19 : 19,atmonth,月份,atmonth
+      col-1-18-1-20 : 20,dayquarter,季度,dayquarter
+      col-1-18-1-21 : 21,orderno,合同编号,orderno
+      col-1-18-1-22 : 22,ordername,合同名称,ordername
+      col-1-18-1-23 : 23,industry,签约行业,industry
+      col-1-18-1-24 : 24,subindustry,二级签约行业,subindustry
+      col-1-18-1-25 : 25,wflg_date,送审时间,wflg_date
+      col-1-18-1-26 : 26,soif_state_name,合同状态,soif_state_name
+      col-1-18-1-27 : 27,soif_type_name,合同类型,soif_type_name
+      col-1-18-1-28 : 28,productid,产品ID,productid
+      col-1-18-1-29 : 29,productname,产品名称,productname
+      col-1-18-1-30 : 30,unit,售卖单位,unit
+      col-1-18-1-31 : 31,position_code,广告位编码,position_code
+      col-1-18-1-32 : 32,bigtype,产品大类,bigtype
+      col-1-18-1-33 : 33,port_name,二级站点,port_name
+      col-1-18-1-34 : 34,position_name,广告位名称,position_name
+      col-1-18-1-35 : 35,pd_platform,泛产品平台,pd_platform
+      col-1-18-1-36 : 36,pd_property,产品类型,pd_property
+      col-1-18-1-37 : 37,pdif_name,产品形式,pdif_name
+      col-1-18-1-38 : 38,tdst_name,二级栏目,tdst_name
+      col-1-18-1-39 : 39,page_name,页面名称,page_name
+      col-1-18-1-40 : 40,channel_name,频道,channel_name
+      col-1-18-1-41 : 41,split_flag,明细类型,split_flag
+      col-1-18-1-42 : 42,ori_productid,原产品ID,ori_productid
+      col-1-18-1-43 : 43,ori_productname,原产品名称,ori_productname
+      col-1-18-1-44 : 44,ori_pd_classification,原产品分类,ori_pd_classification
+      col-1-18-1-45 : 45,ori_platform,原产品泛产品平台,ori_platform
+      col-1-18-1-46 : 46,tb_name,资源大事件,tb_name
+      col-1-18-1-47 : 47,tb_is_core,资源大事件二级,tb_is_core
+      col-1-18-1-48 : 48,rebate_type,返点类型,rebate_type
+      col-1-18-1-49 : 49,order_tb,合同大事件,order_tb
+      col-1-18-1-50 : 50,tb_own,大事件归属,tb_own
+      col-1-18-1-51 : 51,company_event,是否公司级大事件,company_event
+      col-1-18-1-52 : 52,saleamount_flag,收入类别,saleamount_flag
+      col-1-18-1-53 : 53,listtotal,合同签约金额,listtotal
+      col-1-18-1-54 : 54,sale_amount,合同售卖金额,sale_amount
+      col-1-18-1-55 : 55,fina_amount,财务收入金额,fina_amount
+      col-1-18-1-56 : 56,marketing_type,产品线,marketing_type
+      col-1-18-1-57 : 57,am_id,AM_ID,am_id
+      col-1-18-1-58 : 58,am_name,AM_姓名,am_name
+      col-1-18-1-59 : 59,user_region,AM_区域,user_region
+      col-1-18-1-60 : 60,cs_name,cs_姓名,cs_name
+      col-1-18-1-61 : 61,cs_region,cs_区域,cs_region
+      col-1-18-1-62 : 62,ka_accountfiild,KA大行业,ka_accountfiild
+      col-1-18-1-63 : 63,adrps_term,定向,adrps_term
+      col-1-18-1-64 : 64,suit_name,套装,suit_name
+      col-1-18-1-65 : 65,finance_route_1,财务通路一级,finance_route_1
+      col-1-18-1-66 : 66,finance_route_2,财务通路二级,finance_route_2
+      col-1-18-1-67 : 67,finance_route_3,财务通路三级,finance_route_3
+      col-1-18-1-68 : 68,finance_route_4,财务通路四级,finance_route_4
+      col-1-18-1-69 : 69,pd_weibocatalogfirst_name,产品一级分类,pd_weibocatalogfirst_name
+      col-1-18-1-70 : 70,pd_weibocatalogsecond_name,产品二级分类,pd_weibocatalogsecond_name
+      col-1-18-1-71 : 71,pd_weibocatalogthree_name,产品三级分类,pd_weibocatalogthree_name
+      col-1-18-1-72 : 72,dspid,DSPID,dspid
+      col-1-18-1-73 : 73,income_type,合同收入类型,income_type
+      col-1-18-1-74 : 74,net_income,净收入,net_income
+      col-1-18-1-75 : 75,calprice,刊例价,calprice
+      col-1-18-1-76 : 76,quantityorderd,订购数量,quantityorderd
+
+      #聚财客户汇总
+      col-1-19-1-1 : 1,id,id,id
+      col-1-19-1-2 : 2,advertiser_consume_date,日期,advertiser_consume_date
+      col-1-19-1-3 : 3,advertiser_uid,微博UID,advertiser_uid
+      col-1-19-1-4 : 4,advertiser_weibo_nickname,微博昵称,advertiser_weibo_nickname
+      col-1-19-1-5 : 5,advertiser_alias,广告客户名称,advertiser_alias
+      col-1-19-1-6 : 6,agent_company,代理商公司名,agent_company
+      col-1-19-1-7 : 7,agent_area_desc,代理商区域,agent_area_desc
+      col-1-19-1-8 : 8,agent_province_desc,代理商城市,agent_province_desc
+      col-1-19-1-9 : 9,agent_staff_name,所属销售,agent_staff_name
+      col-1-19-1-10 : 10,advertiser_staff_name,所属服务,advertiser_staff_name
+      col-1-19-1-11 : 11,advertiser_sum_recharge,累计充值点数,advertiser_sum_recharge
+      col-1-19-1-12 : 12,advertiser_consume,广告主每日消耗,advertiser_consume
+      col-1-19-1-13 : 13,advertiser_principal_consume,广告主每日消耗本金,advertiser_principal_consume
+      col-1-19-1-14 : 14,advertiser_economy_consume,粉丝头条消耗汇总,advertiser_economy_consume
+      col-1-19-1-15 : 15,advertiser_super_fans_principal_consume,超粉每日消耗本金,advertiser_super_fans_principal_consume
+      col-1-19-1-16 : 16,advertiser_super_fans_consume,超粉每日消耗点数,advertiser_super_fans_consume
+      col-1-19-1-17 : 17,super_fans_pv,曝光量,super_fans_pv
+      col-1-19-1-18 : 18,contract_ids,合同号(多个以逗号分隔),contract_ids
+      col-1-19-1-19 : 19,agent_uid,代理商uid,agent_uid
+      col-1-19-1-20 : 20,agent_surplus_amount,代理商余额,agent_surplus_amount
+
+      #财务总收入
+      col-1-20-1-1 : 1,finance_year,财务年,finance_year
+      col-1-20-1-2 : 2,finance_quarter,财务季,finance_quarter
+      col-1-20-1-3 : 3,finance_month,财务月,finance_month
+      col-1-20-1-4 : 4,income_type,收入项,income_type
+      col-1-20-1-5 : 5,gross_income,毛收入,gross_income
+      col-1-20-1-6 : 6,net_income,净收入,net_income
+      col-1-20-1-7 : 7,id,id,id
+
+
+      col-1-21-1-1 : 1,advertiserconsume_date,消耗日期,advertiserconsume_date
+      col-1-21-1-2 : 2,advertiser_uid,广告主uid,advertiser_uid
+      col-1-21-1-3 : 3,cid,客户cid,cid
+      col-1-21-1-4 : 4,cust_name,客户名称,cust_name
+      col-1-21-1-5 : 5,agent_uid,代理商uid,agent_uid
+      col-1-21-1-6 : 6,selected_principal_consume,消耗本金,selected_principal_consume
+      col-1-21-1-7 : 7,selected_consume,消耗点数,selected_consume
+      col-1-21-1-8 : 8,fans_consume,粉丝通消耗,fans_consume
+      col-1-21-1-9 : 9,fans_pv,粉丝通曝光量,fans_pv
+      col-1-21-1-10 : 10,fans_iv,粉丝通互动数,fans_iv
+      col-1-21-1-11 : 11,economy_consume,粉丝经济消耗,economy_consume
+      col-1-21-1-12 : 12,super_fans_consume,超级粉丝通消耗,super_fans_consume
+      col-1-21-1-13 : 13,super_imp_consume,超级粉丝通-保量消耗,super_imp_consume
+      col-1-21-1-14 : 14,super_bid_consume,超级粉丝通-竞价消耗,super_bid_consume
+      col-1-21-1-15 : 15,super_fans_pv,超级粉丝通曝光量,super_fans_pv
+      col-1-21-1-16 : 16,super_fans_iv,超级粉丝通互动数,super_fans_iv
+      col-1-21-1-17 : 17,super_fans_vip_consume,超级粉丝通-超条消耗,super_fans_vip_consume
+      col-1-21-1-18 : 18,super_fans_vip_fine,超级粉丝通-超条罚款,super_fans_vip_fine
+      col-1-21-1-19 : 19,dt,dt,dt
+
+
+      col-1-22-1-1 : 1,advertiser_uid,广告主id,advertiser_uid
+      col-1-22-1-2 : 2,advertiser_weibo_nickname,广告主微博名,advertiser_weibo_nickname
+      col-1-22-1-3 : 3,advertiser_company,广告主公司,advertiser_company
+      col-1-22-1-4 : 4,agent_uid,代理商uid,agent_uid
+      col-1-22-1-5 : 5,agent_company,代理商公司,agent_company
+      col-1-22-1-6 : 6,agent_area,代理商区域,agent_area
+      col-1-22-1-7 : 7,agent_province,代理商省份,agent_province
+      col-1-22-1-8 : 8,agent_staff_name,所属销售人员,agent_staff_name
+      col-1-22-1-9 : 9,advertiser_sum_recharge,总充值,advertiser_sum_recharge
+      col-1-22-1-10 : 10,advertiser_last_recharge_time,最后充值时间,advertiser_last_recharge_time
+      col-1-22-1-11 : 11,advertiser_last_consume_time,最后消耗时间,advertiser_last_consume_time
+      col-1-22-1-12 : 12,advertiser_recharge_times,充值次数,advertiser_recharge_times
+      col-1-22-1-13 : 13,advertiser_realtime_fans_consume,当前的超粉,advertiser_realtime_fans_consume
+      col-1-22-1-14 : 14,advertiser_realtime_economy_consume,当前的粉条,advertiser_realtime_economy_consume
+      col-1-22-1-15 : 15,advertiser_realtime_economy_frozen,粉丝实时冻结,advertiser_realtime_economy_frozen
+      col-1-22-1-16 : 16,advertiser_realtime_adplan_frozen,超粉实时冻结,advertiser_realtime_adplan_frozen
+      col-1-22-1-17 : 17,realtimeconsume,总的实时消耗,realtimeconsume
+      col-1-22-1-18 : 18,advertiser_mtime,更新的时间,advertiser_mtime
+      col-1-22-1-19 : 19,dt,dt,dt
+
+
+
+
+      context: 1
+      context-1: $user
+      context-1-api: http://test.ams.bop.weibo.com/api-portal/user/listChildUserByUser?userCode={userCode}&accessKey={accessKey}&type={type}
+
+
+      #实时鉴权
+      auth-sys: KPI
+      auth: /**
+
+    prefer-ip-address: true
+    status-page-url: http://localhost:${server.port}/swagger-ui.html # ${server.port}为该服务的端口号
+  client:
+    serviceUrl:
+      defaultZone: http://beatrice1.bop.weibo.com:8501/eureka/
+
+
+
+feign:
+  hystrix:
+    enabled: true
+
+#ribbon:
+#  eager-load:
+#    enabled: true
+#    clients: service-dashboard
+ribbon:
+  eager-load:
+    enabled: true
+    clients: kpi-management
+  ConnectTimeout: 60000 #默认2s
+  ReadTimeout: 60000 #默认5s
+  OkToRetryOnAllOperations: true
+  MaxAutoRetriesNextServer: 2
+  MaxAutoRetries: 2
+  eureka:
+    enabled: true
+
+#避免第一次调用失败
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60001

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ly.mock.repo.mapper.ApiDataMapper">
+
+
+    <!--查询列表-->
+    <select id="getApiDataDetail" resultType="com.ly.mock.model.ApiData" statementType="STATEMENT">
+        select * from apis
+        <where>
+            <if test="filters.syscode != null">
+                <foreach collection="filters.syscode" item="syscode" separator="or">
+                    syscode = "${syscode}"
+                </foreach>
+            </if>
+        </where>
+        order by updateTime desc
+    </select>
+
+    <!--查询row by id -->
+    <select id="getApiDataById" resultType="com.ly.mock.model.ApiData">
+         select * from apis where `id` = "${apiData.id}"
+    </select>
+
+
+    <!--查询 order -->
+    <select id="getApiDataOrder" resultType="int" statementType="STATEMENT">
+        select `order` from apis order by `order` desc LIMIT 1
+    </select>
+
+    <!--查询 接口 -->
+    <select id="getApiDataByContext" resultType="com.ly.mock.model.ApiData">
+        select * from apis
+        where syscode in (
+          select `sysCode`
+          from system
+          where context = #{filters.context}
+        )
+        and path = #{filters.path}
+        and (isStrict=0 or ISNULL(isStrict) or (isStrict=1 and method = #{filters.method}))
+    </select>
+
+
+    <!--查询 查询是否存在 -->
+    <select id="checkApiData" resultType="int" >
+        select count(0)
+        from apis
+        where
+            path = #{apiData.path}
+        and syscode = #{apiData.syscode}
+        and method = #{apiData.method}
+
+    </select>
+
+    <!--删除 -->
+    <delete id="deleteApiData" statementType="STATEMENT">
+        delete from apis where `id` = "${apiData.id}"
+    </delete>
+
+    <update id="updateApiData">
+        update apis
+        set
+          path= #{apiData.path},
+          `desc`= #{apiData.desc},
+          isExtend= #{apiData.isExtend},
+          isRandom= #{apiData.isRandom},
+          isStrict= #{apiData.isStrict},
+          method= #{apiData.method},
+          nums= #{apiData.nums},
+          result= #{apiData.result},
+          syscode= #{apiData.syscode},
+          times= #{apiData.times},
+          updateTime = NOW()
+        where id= #{apiData.id}
+    </update>
+
+    <insert id="insertApiData">
+        insert into apis
+        (id,
+         path,
+         `desc`,
+         isExtend,
+         isRandom,
+         isStrict,
+         method,
+         nums,
+         result,
+         syscode,
+         `order`,
+         times,
+         createTime,
+         updateTime
+         ) values
+        (#{apiData.id},
+          #{apiData.path},
+          #{apiData.desc},
+          #{apiData.isExtend},
+          #{apiData.isRandom},
+          #{apiData.isStrict},
+          #{apiData.method},
+          #{apiData.nums},
+          #{apiData.result},
+          #{apiData.syscode},
+          #{apiData.order},
+          #{apiData.times},
+          NOW(),
+          NOW()
+        )
+    </insert>
+
+    <select id="getTodayFlows" resultType="java.util.Map" >
+        SELECT *, DATE_FORMAT( timegroup, '%H:%i' ) AS `date` , COUNT( * ) AS value
+        FROM
+            (
+            SELECT time,
+                DATE_FORMAT(
+                    concat( date( time ), ' ', HOUR ( time ), ':', floor( MINUTE ( time ) / 10 ) * 10 ),
+                    '%Y-%m-%d %H:%i'
+                ) AS timegroup
+            FROM flows
+            WHERE `date`= date(now())
+            ) a
+        GROUP BY DATE_FORMAT( timegroup, '%Y-%m-%d %H:%i' )
+        ORDER BY timegroup;
+
+    </select>
+
+    <select id="getMonthFlows" resultType="java.util.Map" >
+        <![CDATA[
+            SELECT `date`,times AS value
+            FROM date_flows
+            WHERE DATE_FORMAT(  date, '%Y%m' ) = DATE_FORMAT( CURDATE( ) , '%Y%m' )
+        ]]>
+    </select>
+
+    <select id="getRecentFlows" resultType="java.util.Map" >
+        <![CDATA[
+            SELECT `date`,times AS value
+            FROM date_flows
+        ]]>
+    </select>
+
+    <select id="getBeforeTodayFlows" resultType="java.util.Map" >
+        <![CDATA[
+            SELECT `date`, DATE_FORMAT( `date`, '%Y-%m-%d' ) AS `id`  ,count(id) as `times`
+            FROM flows WHERE `time` < date(now())
+            GROUP BY `date`
+            ORDER BY `time` DESC
+        ]]>
+    </select>
+
+
+    <insert id="insertDateFlows" parameterType="java.util.List">
+        insert into date_flows (id,`date`,times,create_time) VALUES
+        <foreach collection="flows" item="item" index="index" separator=",">
+            (#{item.id},#{item.date},#{item.times},NOW())
+        </foreach>
+    </insert>
+
+    <insert id="insertFlows" parameterType="java.util.Map">
+        insert into flows (id,apiId,`time`,syscode,apiPath,`date`) VALUES
+         (#{item.id},#{item.apiId},now(),#{item.syscode},#{item.apiPath},date(now()))
+    </insert>
+
+    <delete id="deleteFlows" >
+        <![CDATA[
+          DELETE FROM flows WHERE `time` < date(now())
+        ]]>
+    </delete>
+
+</mapper>

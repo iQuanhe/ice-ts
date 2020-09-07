@@ -1,0 +1,113 @@
+{
+	"vuex module class snippet": {
+		"prefix": "vuex module class snippet",
+		"body": [
+			"import { Module, Mutation, MutationAction, Action, VuexModule } from 'vuex-module-decorators';",
+			"import { api } from '~/api';",
+			"",
+			"@Module({ name: '${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}', stateFactory: true })",
+			"export default class ${TM_FILENAME_BASE/(.*)/${1:/capitalize}/} extends VuexModule {",
+			"  foo = 'foo'",
+			"",
+			"  @MutationAction",
+			"  async actionName(payload) {",
+			"    // call api here",
+			"    $0",
+			"    return {",
+			"      foo: 'bar'",
+			"    };",
+			"  }",
+			"}",
+			""
+		],
+		"description": "vuex module class snippet"
+	},
+	"created hook": {
+		"prefix": "hook",
+		"body": [
+			"${1|beforeCreate,created,beforeMount,mounted,beforeUpdate,updated,beforeDestroy,destroyed,activated,deactivated|}() {",
+			"\t$0",
+			"}",
+		],
+		"description": "created hook"
+	},
+	"mounted hook": {
+		"prefix": "mounted",
+		"body": [
+			"${1|mounted,created,destroyed,render,updated,beforeCreate,beforeMount,beforeDestroy,beforeUpdate|}() {",
+			"\t$0",
+			"}",
+		],
+		"description": "mounted hook"
+	},
+	"render hook": {
+		"prefix": "render",
+		"body": [
+			"render(h: CreateElement) {",
+			"\t$0",
+			"}",
+		],
+		"description": "mounted hook"
+	},
+	"create method": {
+		"prefix": "method",
+		"body": [
+			"${1:methodName}() {",
+			"\t$0",
+			"}",
+		],
+		"description": "创建组件方法"
+	},
+	"computed prop": {
+		"prefix": "computedProp",
+		"body": [
+			"// 计算属性",
+			"get ${1:computedProp}() {",
+			"\treturn $0",
+			"}",
+		],
+		"description": "创建计算属性"
+	},
+	"script with typescript nuxt": {
+		"prefix": "script with Typescript nuxt",
+		"body": [
+			"<script lang=\"ts\">",
+			"import { Component, Vue, mixins } from \"nuxt-property-decorator\";",
+			"@Component({",
+			"  // layout: 'default'",
+			"})",
+			"export default class extends Vue {",
+			"  ",
+			"}",
+			"</script>",
+			""
+		],
+		"description": "nuxt page"
+	},
+	"vuetify class elevation": {
+		"prefix": "elevation",
+		"scope": "vue-html",
+		"body": [
+			"${1:elevation-1}",
+		],
+		"description": "vuetify class elevation"
+	},
+	"nuxt plugin snippet": {
+		"prefix": "nuxtPluginTs",
+		"body": [
+			"// enable middleware you must setup pulgins at nuxt.config.js ",
+			"export default <Nuxt.Plugin>function (ctx, inject) {",
+			"}"
+		],
+		"description": "nuxt plugin snippet"
+	},
+	"nuxt middleware snippet": {
+		"prefix": "nuxtMiddlewareTs",
+		"body": [
+			"// enable middleware you must setup router's middleware at nuxt.config.js or app/pages/*.vue ",
+			"export default <Nuxt.MiddleWare>function (ctx) {",
+			"}"
+		],
+		"description": "nuxt middleware snippet"
+	}
+}

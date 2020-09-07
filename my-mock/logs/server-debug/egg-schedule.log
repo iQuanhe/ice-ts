@@ -1,0 +1,42 @@
+2019-04-28 18:58:10,990 INFO 46015 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18109014ms at 2019-04-29 00:00:00.004
+2019-04-28 18:58:10,990 INFO 46015 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18110010ms at 2019-04-29 00:00:01.000
+2019-04-28 18:58:10,916 INFO 46016 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-28 18:58:10,916 INFO 46016 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 09:48:50,538 INFO 46851 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 09:48:50,538 INFO 46851 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 09:48:50,694 INFO 46850 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 51069309ms at 2019-04-30 00:00:00.003
+2019-04-29 09:48:50,694 INFO 46850 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51070306ms at 2019-04-30 00:00:01.000
+2019-04-29 09:55:22,645 INFO 47030 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 50677359ms at 2019-04-30 00:00:00.004
+2019-04-29 09:55:22,646 INFO 47030 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50678355ms at 2019-04-30 00:00:01.001
+2019-04-29 09:55:22,501 INFO 47035 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 09:55:22,501 INFO 47035 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 09:55:53,696 INFO 47065 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 09:55:53,697 INFO 47065 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 09:55:55,288 INFO 47066 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 09:55:55,288 INFO 47066 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 09:56:03,251 INFO 47072 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 50636751ms at 2019-04-30 00:00:00.002
+2019-04-29 09:56:03,252 INFO 47072 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50637749ms at 2019-04-30 00:00:01.001
+2019-04-29 09:56:03,185 INFO 47073 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 09:56:03,185 INFO 47073 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 09:56:26,362 INFO 47160 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 09:56:26,362 INFO 47160 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 09:56:27,997 INFO 47161 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 09:56:27,997 INFO 47161 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 09:56:53,583 INFO 47162 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 09:56:53,583 INFO 47162 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 09:56:54,229 INFO 47163 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 09:56:54,229 INFO 47163 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 10:33:13,091 INFO 48954 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 10:33:13,091 INFO 48954 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 10:33:15,319 INFO 48955 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 10:33:15,319 INFO 48955 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 12:58:25,964 INFO 55291 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 39694038ms at 2019-04-30 00:00:00.002
+2019-04-29 12:58:25,965 INFO 55291 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39695035ms at 2019-04-30 00:00:01.000
+2019-04-29 12:58:25,563 INFO 55294 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 12:58:25,563 INFO 55294 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 13:00:32,753 INFO 55623 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 13:00:32,753 INFO 55623 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 13:03:38,879 INFO 56019 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 13:03:38,879 INFO 56019 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 13:03:51,497 INFO 56015 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 39368505ms at 2019-04-30 00:00:00.002
+2019-04-29 13:03:51,498 INFO 56015 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39369502ms at 2019-04-30 00:00:01.000

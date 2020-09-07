@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.ly</groupId>
+  <artifactId>ly-mock-server</artifactId>
+  <version>1.0.436-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20190523044726</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.436-SNAPSHOT</value>
+        <updated>20190523044726</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

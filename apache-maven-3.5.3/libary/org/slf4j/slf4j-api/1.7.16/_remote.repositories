@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:05 CST 2019
+slf4j-api-1.7.16.jar>central=
+slf4j-api-1.7.16.pom>weibo=
+slf4j-api-1.7.16.jar>weibo=
+slf4j-api-1.7.16.pom>central=

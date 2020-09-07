@@ -1,0 +1,308 @@
+{
+  "session": {
+    "maxAge": "/Users/luyan1/learning/my-mock/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/luyan1/learning/my-mock/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/luyan1/learning/my-mock/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/luyan1/learning/my-mock/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/luyan1/learning/my-mock/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/luyan1/learning/my-mock/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/luyan1/learning/my-mock/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/luyan1/learning/my-mock/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/luyan1/learning/my-mock/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/luyan1/learning/my-mock/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/luyan1/learning/my-mock/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/luyan1/learning/my-mock/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/luyan1/learning/my-mock/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/luyan1/learning/my-mock/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/luyan1/learning/my-mock/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/luyan1/learning/my-mock/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/luyan1/learning/my-mock/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/luyan1/learning/my-mock/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/luyan1/learning/my-mock/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/luyan1/learning/my-mock/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/luyan1/learning/my-mock/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/luyan1/learning/my-mock/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/luyan1/learning/my-mock/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/luyan1/learning/my-mock/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/luyan1/learning/my-mock/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/luyan1/learning/my-mock/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/luyan1/learning/my-mock/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/luyan1/learning/my-mock/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/luyan1/learning/my-mock/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/luyan1/learning/my-mock/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/luyan1/learning/my-mock/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/luyan1/learning/my-mock/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/luyan1/learning/my-mock/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/luyan1/learning/my-mock/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/luyan1/learning/my-mock/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/luyan1/learning/my-mock/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/luyan1/learning/my-mock/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/luyan1/learning/my-mock/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/luyan1/learning/my-mock/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/luyan1/learning/my-mock/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/luyan1/learning/my-mock/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/luyan1/learning/my-mock/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/luyan1/learning/my-mock/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/luyan1/learning/my-mock/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/luyan1/learning/my-mock/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/luyan1/learning/my-mock/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "name": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "keys": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "version": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "description": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "author": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "files": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@alifd/next": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "@antv/data-set": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "@icedesign/container": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "@icedesign/form-binder": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "@icedesign/foundation-symbol": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "@icedesign/img": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "@icedesign/layout": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "@icedesign/theme": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "bizcharts": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "enquire-js": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "jwt-simple": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "koa-bodyparser": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "koa-xml-body": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "lodash.clonedeep": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "moment": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "prop-types": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "react": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    },
+    "publishConfig": {
+      "access": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "babel-eslint": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "eslint-config-airbnb": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "eslint-plugin-babel": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "eslint-plugin-import": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "eslint-plugin-jsx-a11y": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "ice-scripts": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "build": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "lint": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    },
+    "themeConfig": {
+      "primaryColor": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    },
+    "buildConfig": {
+      "theme": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "entry": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "localization": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "output": {
+        "publicPath": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+      }
+    },
+    "scaffoldConfig": {
+      "builder": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "name": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "title": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "categories": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "screenshot": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "screenshots": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    },
+    "title": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "strict": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "depth": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "env": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "level": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "logging": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "port": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/luyan1/learning/my-mock/node_modules/egg/config/config.default.js"
+}

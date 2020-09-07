@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:27 CST 2019
+servo-core-0.10.1.pom>central=
+servo-core-0.10.1.pom>weibo=
+servo-core-0.10.1.jar>weibo=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:05 CST 2019
+spring-tx-4.3.14.RELEASE.jar>central=
+spring-tx-4.3.14.RELEASE.pom>central=
+spring-tx-4.3.14.RELEASE.pom>weibo=
+spring-tx-4.3.14.RELEASE.jar>weibo=

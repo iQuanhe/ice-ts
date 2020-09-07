@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:05 CST 2019
+tomcat-juli-8.5.27.jar>weibo=
+tomcat-juli-8.5.27.jar>central=
+tomcat-juli-8.5.27.pom>central=
+tomcat-juli-8.5.27.pom>weibo=

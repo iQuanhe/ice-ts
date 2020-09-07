@@ -1,0 +1,9 @@
+{
+  "outDir": "../api",
+  "origins": [{
+    "originUrl": "https://petstore.swagger.io/v2/swagger.json",
+    "name": "petstore",
+    "usingMultipleOrigins": true
+  }],
+  "templatePath": "./pont-template-nuxt"
+}

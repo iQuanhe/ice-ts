@@ -1,0 +1,150 @@
+2019-04-28 18:51:48,504 ERROR 45723 [-/127.0.0.1/-/32ms POST /lyapi/apilist] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45723
+hostname: luyan1.local
+
+2019-04-28 18:51:48,515 ERROR 45723 [-/127.0.0.1/-/1ms GET /lyapi/getsys] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45723
+hostname: luyan1.local
+
+2019-04-28 18:54:51,830 ERROR 45723 [-/127.0.0.1/-/2ms POST /lyapi/apilist] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45723
+hostname: luyan1.local
+
+2019-04-28 18:54:51,835 ERROR 45723 [-/127.0.0.1/-/0ms GET /lyapi/getsys] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45723
+hostname: luyan1.local
+
+2019-04-28 18:55:39,807 ERROR 45847 [-/127.0.0.1/-/18ms POST /lyapi/apilist] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45847
+hostname: luyan1.local
+
+2019-04-28 18:55:39,817 ERROR 45847 [-/127.0.0.1/-/2ms GET /lyapi/getsys] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45847
+hostname: luyan1.local
+
+2019-04-28 18:56:33,385 ERROR 45847 [-/127.0.0.1/-/1ms POST /lyapi/apilist] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45847
+hostname: luyan1.local
+
+2019-04-28 18:56:33,388 ERROR 45847 [-/127.0.0.1/-/0ms GET /lyapi/getsys] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45847
+hostname: luyan1.local
+
+2019-04-28 18:56:44,390 ERROR 45847 [-/127.0.0.1/-/1ms POST /lyapi/apilist] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45847
+hostname: luyan1.local
+
+2019-04-28 18:56:44,393 ERROR 45847 [-/127.0.0.1/-/0ms GET /lyapi/getsys] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/luyan1/learning/my-mock/node_modules/egg/lib/application.js:257:15)
+    at Object.get cookies [as cookies] (/Users/luyan1/learning/my-mock/node_modules/egg/app/extend/context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:86:33)
+    at Object.ensureCsrfSecret (/Users/luyan1/learning/my-mock/node_modules/egg-security/app/extend/context.js:97:13)
+    at csrf (/Users/luyan1/learning/my-mock/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/luyan1/learning/my-mock/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/luyan1/learning/my-mock/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/luyan1/learning/my-mock/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+
+pid: 45847
+hostname: luyan1.local
+

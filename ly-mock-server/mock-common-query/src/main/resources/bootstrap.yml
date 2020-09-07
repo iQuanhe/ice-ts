@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: ly-mock
+
+
+mybatis:
+  type-aliases-package: com.ly.mock.model
+  mapper-locations: classpath*:com/ly/mock/repo/xml/*.xml
+
+security.basic.enabled: false
+
+server:
+  port: 8101
+
+management:
+  security:
+    enabled: false     #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限
+
+ribbon:
+  eager-load:
+    enabled: true
+    clients: ly-mock
+  ConnectTimeout: 60000 #默认2s
+  ReadTimeout: 60000 #默认5s
+  OkToRetryOnAllOperations: true
+  MaxAutoRetriesNextServer: 2
+  MaxAutoRetries: 2
+  eureka:
+    enabled: true
+
+

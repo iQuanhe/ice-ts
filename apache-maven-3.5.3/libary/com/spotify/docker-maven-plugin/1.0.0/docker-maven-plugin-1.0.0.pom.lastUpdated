@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 30 16:34:51 CST 2019
+http\://maven.intra.weibo.com/nexus/content/groups/public/.error=Could not transfer artifact com.spotify\:docker-maven-plugin\:pom\:1.0.0 from/to weibo (http\://maven.intra.weibo.com/nexus/content/groups/public)\: Failed to transfer file\: http\://maven.intra.weibo.com/nexus/content/groups/public/com/spotify/docker-maven-plugin/1.0.0/docker-maven-plugin-1.0.0.pom. Return code is\: 502 , ReasonPhrase\:Bad Gateway.
+@default-weibo-http\://maven.intra.weibo.com/nexus/content/groups/public/.lastUpdated=1556613291807

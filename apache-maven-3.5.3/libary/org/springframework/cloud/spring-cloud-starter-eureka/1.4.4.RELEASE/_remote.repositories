@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:05 CST 2019
+spring-cloud-starter-eureka-1.4.4.RELEASE.pom>central=
+spring-cloud-starter-eureka-1.4.4.RELEASE.pom>weibo=
+spring-cloud-starter-eureka-1.4.4.RELEASE.jar>weibo=

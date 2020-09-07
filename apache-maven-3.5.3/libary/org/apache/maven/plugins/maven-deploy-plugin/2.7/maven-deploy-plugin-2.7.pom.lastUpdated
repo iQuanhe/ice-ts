@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 30 16:34:51 CST 2019
+http\://maven.intra.weibo.com/nexus/content/groups/public/.error=Could not transfer artifact org.apache.maven.plugins\:maven-deploy-plugin\:pom\:2.7 from/to weibo (http\://maven.intra.weibo.com/nexus/content/groups/public)\: Failed to transfer file\: http\://maven.intra.weibo.com/nexus/content/groups/public/org/apache/maven/plugins/maven-deploy-plugin/2.7/maven-deploy-plugin-2.7.pom. Return code is\: 502 , ReasonPhrase\:Bad Gateway.
+@default-weibo-http\://maven.intra.weibo.com/nexus/content/groups/public/.lastUpdated=1556613291854

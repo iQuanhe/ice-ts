@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:26 CST 2019
+stringtemplate-3.2.1.pom>central=
+stringtemplate-3.2.1.pom>weibo=
+stringtemplate-3.2.1.jar>weibo=

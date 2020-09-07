@@ -1,0 +1,320 @@
+2019-04-28 18:57:15,033 INFO 46006 [egg:logger] init all loggers with options: {"dir":"./logs/server-debug","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2019-04-28 18:57:15,171 INFO 46006 [egg:core] dump config after load, 3ms
+2019-04-28 18:57:15,210 INFO 46006 [egg-watcher] Start watching: ["/Users/luyan1/learning/my-mock/app","/Users/luyan1/learning/my-mock/config","/Users/luyan1/learning/my-mock/mocks","/Users/luyan1/learning/my-mock/mocks_proxy","/Users/luyan1/learning/my-mock/app.js"]
+2019-04-28 18:57:15,210 INFO 46006 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app"
+2019-04-28 18:57:15,211 INFO 46006 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/config"
+2019-04-28 18:57:15,211 INFO 46006 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks"
+2019-04-28 18:57:15,211 INFO 46006 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks_proxy"
+2019-04-28 18:57:15,211 INFO 46006 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app.js"
+2019-04-28 18:57:15,212 INFO 46006 [egg-watcher:agent] watcher start success
+2019-04-28 18:57:15,230 INFO 46006 [egg:core] dump config after ready, 2ms
+2019-04-28 18:58:10,211 INFO 46015 [egg:logger] init all loggers with options: {"dir":"./logs/server-debug","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2019-04-28 18:58:10,302 INFO 46015 [egg:core] dump config after load, 4ms
+2019-04-28 18:58:10,334 INFO 46015 [egg-watcher] Start watching: ["/Users/luyan1/learning/my-mock/app","/Users/luyan1/learning/my-mock/config","/Users/luyan1/learning/my-mock/mocks","/Users/luyan1/learning/my-mock/mocks_proxy","/Users/luyan1/learning/my-mock/app.js"]
+2019-04-28 18:58:10,334 INFO 46015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app"
+2019-04-28 18:58:10,334 INFO 46015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/config"
+2019-04-28 18:58:10,334 INFO 46015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks"
+2019-04-28 18:58:10,334 INFO 46015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks_proxy"
+2019-04-28 18:58:10,334 INFO 46015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app.js"
+2019-04-28 18:58:10,335 INFO 46015 [egg-watcher:agent] watcher start success
+2019-04-28 18:58:10,351 INFO 46015 [egg:core] dump config after ready, 3ms
+2019-04-28 19:36:44,202 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2229874ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 20:15:15,263 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2030957ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 21:25:12,118 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2396260ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 22:02:29,004 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2216873ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 23:09:49,748 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2220284ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 23:40:58,844 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1829243ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 00:45:04,666 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2025160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 01:19:17,014 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2012329ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 01:50:51,165 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1874119ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 02:28:49,453 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2238267ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 03:02:11,718 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1962216ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 04:05:28,357 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2016019ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 04:38:52,623 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1964212ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 05:44:49,348 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2176082ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 06:22:55,743 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2246271ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 07:24:25,556 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1889247ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 07:55:13,826 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1828259ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 09:00:32,492 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2117950ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 09:30:16,774 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1744268ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 09:48:49,671 INFO 46850 [egg:logger] init all loggers with options: {"dir":"./logs/server-debug","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2019-04-29 09:48:49,874 INFO 46850 [egg:core] dump config after load, 4ms
+2019-04-29 09:48:49,933 INFO 46850 [egg-watcher] Start watching: ["/Users/luyan1/learning/my-mock/app","/Users/luyan1/learning/my-mock/config","/Users/luyan1/learning/my-mock/mocks","/Users/luyan1/learning/my-mock/mocks_proxy","/Users/luyan1/learning/my-mock/app.js"]
+2019-04-29 09:48:49,933 INFO 46850 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app"
+2019-04-29 09:48:49,933 INFO 46850 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/config"
+2019-04-29 09:48:49,933 INFO 46850 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks"
+2019-04-29 09:48:49,933 INFO 46850 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks_proxy"
+2019-04-29 09:48:49,933 INFO 46850 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app.js"
+2019-04-29 09:48:49,934 INFO 46850 [egg-watcher:agent] watcher start success
+2019-04-29 09:48:49,953 INFO 46850 [egg:core] dump config after ready, 2ms
+2019-04-29 09:55:21,655 INFO 47030 [egg:logger] init all loggers with options: {"dir":"./logs/server-debug","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2019-04-29 09:55:21,798 INFO 47030 [egg:core] dump config after load, 7ms
+2019-04-29 09:55:21,850 INFO 47030 [egg-watcher] Start watching: ["/Users/luyan1/learning/my-mock/app","/Users/luyan1/learning/my-mock/config","/Users/luyan1/learning/my-mock/mocks","/Users/luyan1/learning/my-mock/mocks_proxy","/Users/luyan1/learning/my-mock/app.js"]
+2019-04-29 09:55:21,850 INFO 47030 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app"
+2019-04-29 09:55:21,850 INFO 47030 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/config"
+2019-04-29 09:55:21,850 INFO 47030 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks"
+2019-04-29 09:55:21,851 INFO 47030 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks_proxy"
+2019-04-29 09:55:21,851 INFO 47030 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app.js"
+2019-04-29 09:55:21,851 INFO 47030 [egg-watcher:agent] watcher start success
+2019-04-29 09:55:21,868 INFO 47030 [egg:core] dump config after ready, 4ms
+2019-04-29 09:55:52,698 INFO 47030 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":874,"blocks":8,"atimeMs":1556502952695.7734,"mtimeMs":1556502952698.197,"ctimeMs":1556502952698.197,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T01:55:52.696Z","mtime":"2019-04-29T01:55:52.698Z","ctime":"2019-04-29T01:55:52.698Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 09:55:52,904 WARN 47030 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 09:55:54,663 WARN 47030 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 09:55:54,459 INFO 47030 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":874,"blocks":8,"atimeMs":1556502954459.076,"mtimeMs":1556502952698.197,"ctimeMs":1556502952698.197,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T01:55:54.459Z","mtime":"2019-04-29T01:55:52.698Z","ctime":"2019-04-29T01:55:52.698Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 09:56:02,535 INFO 47072 [egg:logger] init all loggers with options: {"dir":"./logs/server-debug","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2019-04-29 09:56:02,623 INFO 47072 [egg:core] dump config after load, 3ms
+2019-04-29 09:56:02,654 INFO 47072 [egg-watcher] Start watching: ["/Users/luyan1/learning/my-mock/app","/Users/luyan1/learning/my-mock/config","/Users/luyan1/learning/my-mock/mocks","/Users/luyan1/learning/my-mock/mocks_proxy","/Users/luyan1/learning/my-mock/app.js"]
+2019-04-29 09:56:02,654 INFO 47072 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app"
+2019-04-29 09:56:02,654 INFO 47072 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/config"
+2019-04-29 09:56:02,654 INFO 47072 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks"
+2019-04-29 09:56:02,654 INFO 47072 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks_proxy"
+2019-04-29 09:56:02,654 INFO 47072 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app.js"
+2019-04-29 09:56:02,655 INFO 47072 [egg-watcher:agent] watcher start success
+2019-04-29 09:56:02,671 INFO 47072 [egg:core] dump config after ready, 3ms
+2019-04-29 09:56:25,460 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":887,"blocks":8,"atimeMs":1556502985458.099,"mtimeMs":1556502985458.837,"ctimeMs":1556502985458.837,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T01:56:25.458Z","mtime":"2019-04-29T01:56:25.459Z","ctime":"2019-04-29T01:56:25.459Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 09:56:25,667 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 09:56:27,389 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 09:56:27,188 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":887,"blocks":8,"atimeMs":1556502987187.891,"mtimeMs":1556502985458.837,"ctimeMs":1556502985458.837,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T01:56:27.188Z","mtime":"2019-04-29T01:56:25.459Z","ctime":"2019-04-29T01:56:25.459Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 09:56:52,448 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 09:56:52,242 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":0,"blocks":0,"atimeMs":1556503012242.6548,"mtimeMs":1556503012242.79,"ctimeMs":1556503012242.79,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T01:56:52.243Z","mtime":"2019-04-29T01:56:52.243Z","ctime":"2019-04-29T01:56:52.243Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 09:56:53,498 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":881,"blocks":8,"atimeMs":1556503013498.098,"mtimeMs":1556503012243.1118,"ctimeMs":1556503012243.1118,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T01:56:53.498Z","mtime":"2019-04-29T01:56:52.243Z","ctime":"2019-04-29T01:56:52.243Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 09:56:53,699 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 10:33:11,271 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":895,"blocks":8,"atimeMs":1556505191240.4775,"mtimeMs":1556505191241.8704,"ctimeMs":1556505191241.8704,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T02:33:11.240Z","mtime":"2019-04-29T02:33:11.242Z","ctime":"2019-04-29T02:33:11.242Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 10:33:11,494 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 10:33:14,751 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 10:33:14,549 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":895,"blocks":8,"atimeMs":1556505194549.2998,"mtimeMs":1556505191241.8704,"ctimeMs":1556505191241.8704,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T02:33:14.549Z","mtime":"2019-04-29T02:33:11.242Z","ctime":"2019-04-29T02:33:11.242Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 11:44:36,545 ERROR 47072 nodejs.ClusterClientNoResponseError: client no response in 60035ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 47072
+hostname: luyan1.local
+
+2019-04-29 12:16:54,297 ERROR 47072 nodejs.ClusterClientNoResponseError: client no response in 1897381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 47072
+hostname: luyan1.local
+
+2019-04-29 12:58:24,509 INFO 55291 [egg:logger] init all loggers with options: {"dir":"./logs/server-debug","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2019-04-29 12:58:24,768 INFO 55291 [egg:core] dump config after load, 7ms
+2019-04-29 12:58:24,833 INFO 55291 [egg-watcher] Start watching: ["/Users/luyan1/learning/my-mock/app","/Users/luyan1/learning/my-mock/config","/Users/luyan1/learning/my-mock/mocks","/Users/luyan1/learning/my-mock/mocks_proxy","/Users/luyan1/learning/my-mock/app.js"]
+2019-04-29 12:58:24,833 INFO 55291 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app"
+2019-04-29 12:58:24,833 INFO 55291 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/config"
+2019-04-29 12:58:24,834 INFO 55291 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks"
+2019-04-29 12:58:24,834 INFO 55291 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks_proxy"
+2019-04-29 12:58:24,834 INFO 55291 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app.js"
+2019-04-29 12:58:24,835 INFO 55291 [egg-watcher:agent] watcher start success
+2019-04-29 12:58:24,858 INFO 55291 [egg:core] dump config after ready, 3ms
+2019-04-29 13:00:31,886 INFO 55622 [egg:logger] init all loggers with options: {"dir":"./logs/server-debug","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2019-04-29 13:00:32,049 INFO 55622 [egg:core] dump config after load, 7ms
+2019-04-29 13:00:32,105 INFO 55622 [egg-watcher] Start watching: ["/Users/luyan1/learning/my-mock/app","/Users/luyan1/learning/my-mock/config","/Users/luyan1/learning/my-mock/mocks","/Users/luyan1/learning/my-mock/mocks_proxy","/Users/luyan1/learning/my-mock/app.js"]
+2019-04-29 13:00:32,105 INFO 55622 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app"
+2019-04-29 13:00:32,105 INFO 55622 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/config"
+2019-04-29 13:00:32,105 INFO 55622 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks"
+2019-04-29 13:00:32,105 INFO 55622 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks_proxy"
+2019-04-29 13:00:32,105 INFO 55622 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app.js"
+2019-04-29 13:00:32,106 INFO 55622 [egg-watcher:agent] watcher start success
+2019-04-29 13:00:32,134 INFO 55622 [egg:core] dump config after ready, 6ms
+2019-04-29 13:03:37,954 INFO 56015 [egg:logger] init all loggers with options: {"dir":"./logs/server-debug","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2019-04-29 13:03:38,128 INFO 56015 [egg:core] dump config after load, 5ms
+2019-04-29 13:03:38,181 INFO 56015 [egg-watcher] Start watching: ["/Users/luyan1/learning/my-mock/app","/Users/luyan1/learning/my-mock/config","/Users/luyan1/learning/my-mock/mocks","/Users/luyan1/learning/my-mock/mocks_proxy","/Users/luyan1/learning/my-mock/app.js"]
+2019-04-29 13:03:38,181 INFO 56015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app"
+2019-04-29 13:03:38,181 INFO 56015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/config"
+2019-04-29 13:03:38,181 INFO 56015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks"
+2019-04-29 13:03:38,182 INFO 56015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/mocks_proxy"
+2019-04-29 13:03:38,182 INFO 56015 [egg-watcher] Start watching: "/Users/luyan1/learning/my-mock/app.js"
+2019-04-29 13:03:38,182 INFO 56015 [egg-watcher:agent] watcher start success
+2019-04-29 13:03:38,207 INFO 56015 [egg:core] dump config after ready, 3ms
+2019-04-29 13:20:52,025 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 13:20:51,792 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":0,"blocks":0,"atimeMs":1556515251764.3418,"mtimeMs":1556515251764.6836,"ctimeMs":1556515251764.6836,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T05:20:51.764Z","mtime":"2019-04-29T05:20:51.765Z","ctime":"2019-04-29T05:20:51.765Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 13:21:09,901 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 13:21:09,697 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":0,"blocks":0,"atimeMs":1556515269696.881,"mtimeMs":1556515269696.8975,"ctimeMs":1556515269696.8975,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T05:21:09.697Z","mtime":"2019-04-29T05:21:09.697Z","ctime":"2019-04-29T05:21:09.697Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 13:21:11,128 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 13:21:10,925 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":498,"blocks":8,"atimeMs":1556515270925.6936,"mtimeMs":1556515269697.139,"ctimeMs":1556515269697.139,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T05:21:10.926Z","mtime":"2019-04-29T05:21:09.697Z","ctime":"2019-04-29T05:21:09.697Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 13:24:32,518 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 13:24:32,311 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":0,"blocks":0,"atimeMs":1556515472305.475,"mtimeMs":1556515472311.1833,"ctimeMs":1556515472311.1833,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T05:24:32.305Z","mtime":"2019-04-29T05:24:32.311Z","ctime":"2019-04-29T05:24:32.311Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 13:24:34,748 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 13:24:34,543 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":498,"blocks":8,"atimeMs":1556515474543.4521,"mtimeMs":1556515472311.8267,"ctimeMs":1556515472311.8267,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T05:24:34.543Z","mtime":"2019-04-29T05:24:32.312Z","ctime":"2019-04-29T05:24:32.312Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 13:24:35,587 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":0,"blocks":8,"atimeMs":1556515475586.7659,"mtimeMs":1556515475586.8276,"ctimeMs":1556515475586.8276,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T05:24:35.587Z","mtime":"2019-04-29T05:24:35.587Z","ctime":"2019-04-29T05:24:35.587Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 13:24:35,801 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change
+2019-04-29 13:24:37,704 INFO 47072 [egg-watcher] Recieved a change event from eventSource: {"path":"/Users/luyan1/learning/my-mock/app.js","event":"change","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":20477965,"size":498,"blocks":8,"atimeMs":1556515477704.4363,"mtimeMs":1556515475587.0525,"ctimeMs":1556515475587.0525,"birthtimeMs":1556445871800.5906,"atime":"2019-04-29T05:24:37.704Z","mtime":"2019-04-29T05:24:35.587Z","ctime":"2019-04-29T05:24:35.587Z","birthtime":"2019-04-28T10:04:31.801Z"}}
+2019-04-29 13:24:37,907 WARN 47072 [agent:development] reload worker because /Users/luyan1/learning/my-mock/app.js change

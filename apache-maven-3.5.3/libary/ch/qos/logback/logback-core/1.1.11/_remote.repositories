@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:05 CST 2019
+logback-core-1.1.11.jar>central=
+logback-core-1.1.11.pom>central=
+logback-core-1.1.11.jar>weibo=
+logback-core-1.1.11.pom>weibo=

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:05 CST 2019
+snakeyaml-1.17.jar>central=
+snakeyaml-1.17.jar>weibo=
+snakeyaml-1.17.pom>weibo=
+snakeyaml-1.17.pom>central=

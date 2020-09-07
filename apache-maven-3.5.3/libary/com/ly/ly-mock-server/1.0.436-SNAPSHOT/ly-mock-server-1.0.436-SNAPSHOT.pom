@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.ly</groupId>
+	<artifactId>ly-mock-server</artifactId>
+	<version>1.0.436-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>ly-mock-server</name>
+	<description />
+
+	<modules>
+		<module>ly-mock</module>
+		<module>mock-server-eureka</module>
+    </modules>
+
+	<!--<parent>-->
+		<!--<artifactId>ly-api</artifactId>-->
+		<!--<groupId>com.ly.api</groupId>-->
+		<!--<version>1.22</version>-->
+	<!--</parent>-->
+	<!--<scm>-->
+		<!--<connection>scm:git:http://git.intra.weibo.com/bop/bop-kpi-group/kpi_dashboard.git</connection>-->
+		<!--<developerConnection>scm:git:http://git.intra.weibo.com/bop/bop-kpi-group/kpi_dashboard.git</developerConnection>-->
+		<!--<url>http://git.intra.weibo.com/bop/bop-kpi-group/kpi_dashboard.git</url>-->
+		<!--<tag>HEAD</tag>-->
+	<!--</scm>-->
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<spring-cloud.version>Edgware.SR3</spring-cloud.version>
+		<spring-boot.version>1.5.10.RELEASE</spring-boot.version>
+		<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+		<docker-maven-plugin.version>1.0.0</docker-maven-plugin.version>
+		<slf4j-api.version>1.7.16</slf4j-api.version>
+		<aspectjweaver.version>1.8.13</aspectjweaver.version>
+		<junit.version>4.12</junit.version>
+		<mapper.version>1.1.7</mapper.version>
+		<spring.version>4.3.14.RELEASE</spring.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!--通用mapper-->
+		<dependency>
+			<groupId>tk.mybatis</groupId>
+			<artifactId>mapper-spring-boot-starter</artifactId>
+			<version>${mapper.version}</version>
+
+		</dependency>
+		<!--slf4j-api-->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j-api.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>${aspectjweaver.version}</version>
+		</dependency>
+
+		<!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+		</dependency> -->
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-parent</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring-boot.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-mail</artifactId>
+				<version>1.5.8.RELEASE</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<plugins>
+			<!-- <plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin> -->
+
+			<!-- java编译插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+
+		</plugins>
+	</build>
+
+</project>

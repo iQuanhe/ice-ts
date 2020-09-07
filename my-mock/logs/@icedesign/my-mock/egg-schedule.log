@@ -1,0 +1,14 @@
+2019-04-28 18:50:37,954 INFO 45722 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18562049ms at 2019-04-29 00:00:00.003
+2019-04-28 18:50:37,954 INFO 45722 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18563046ms at 2019-04-29 00:00:01.000
+2019-04-28 18:50:37,818 INFO 45723 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-28 18:50:37,818 INFO 45723 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-28 18:55:32,722 INFO 45846 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18267280ms at 2019-04-29 00:00:00.002
+2019-04-28 18:55:32,723 INFO 45846 [Timer] /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18268277ms at 2019-04-29 00:00:01.000
+2019-04-28 18:55:32,589 INFO 45847 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-28 18:55:32,589 INFO 45847 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 13:20:53,310 INFO 58055 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 13:20:53,310 INFO 58055 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 13:21:11,093 INFO 58074 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 13:21:11,093 INFO 58074 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-04-29 13:21:11,790 INFO 58076 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-04-29 13:21:11,790 INFO 58076 [egg-schedule]: register schedule /Users/luyan1/learning/my-mock/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

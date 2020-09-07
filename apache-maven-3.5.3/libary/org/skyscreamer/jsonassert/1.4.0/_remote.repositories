@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:05 CST 2019
+jsonassert-1.4.0.jar>weibo=
+jsonassert-1.4.0.jar>central=
+jsonassert-1.4.0.pom>central=
+jsonassert-1.4.0.pom>weibo=

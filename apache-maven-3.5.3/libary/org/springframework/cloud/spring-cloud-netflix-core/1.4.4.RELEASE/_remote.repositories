@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:23 CST 2019
+spring-cloud-netflix-core-1.4.4.RELEASE.jar>weibo=
+spring-cloud-netflix-core-1.4.4.RELEASE.pom>central=
+spring-cloud-netflix-core-1.4.4.RELEASE.pom>weibo=

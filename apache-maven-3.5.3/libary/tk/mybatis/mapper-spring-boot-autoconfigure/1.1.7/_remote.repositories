@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 23 13:43:05 CST 2019
+mapper-spring-boot-autoconfigure-1.1.7.jar>central=
+mapper-spring-boot-autoconfigure-1.1.7.pom>central=
+mapper-spring-boot-autoconfigure-1.1.7.jar>weibo=
+mapper-spring-boot-autoconfigure-1.1.7.pom>weibo=

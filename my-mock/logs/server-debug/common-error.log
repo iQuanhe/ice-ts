@@ -1,0 +1,226 @@
+2019-04-28 19:36:44,178 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2229874ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 20:15:15,260 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2030957ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 21:25:12,117 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2396260ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 22:02:29,004 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2216873ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 23:09:49,748 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2220284ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-28 23:40:58,844 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1829243ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 00:45:04,666 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2025160ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 01:19:17,013 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2012329ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 01:50:51,165 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1874119ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 02:28:49,453 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2238267ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 03:02:11,709 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1962216ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 04:05:28,357 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2016019ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 04:38:52,623 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1964212ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 05:44:49,348 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2176082ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 06:22:55,743 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2246271ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 07:24:25,555 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1889247ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 07:55:13,826 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1828259ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 09:00:32,491 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 2117950ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 09:30:16,773 ERROR 46015 nodejs.ClusterClientNoResponseError: client no response in 1744268ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 46015
+hostname: luyan1.local
+
+2019-04-29 11:44:36,539 ERROR 47072 nodejs.ClusterClientNoResponseError: client no response in 60035ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 47072
+hostname: luyan1.local
+
+2019-04-29 12:16:54,294 ERROR 47072 nodejs.ClusterClientNoResponseError: client no response in 1897381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:425:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+name: "ClusterClientNoResponseError"
+pid: 47072
+hostname: luyan1.local
+
+2019-04-29 13:02:47,027 ERROR 55623 [-/127.0.0.1/-/1ms GET /] nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:52723
+    at Function.waitFor (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/server.js:238:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 55623
+hostname: luyan1.local
+
+2019-04-29 13:08:22,375 ERROR 56019 nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:54032
+    at Function.waitFor (/Users/luyan1/learning/my-mock/node_modules/cluster-client/lib/server.js:238:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 56019
+hostname: luyan1.local
+

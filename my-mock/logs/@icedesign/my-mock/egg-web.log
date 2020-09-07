@@ -1,0 +1,70 @@
+2019-04-28 18:50:37,777 INFO 45723 [egg:logger] init all loggers with options: {"dir":"/Users/luyan1/learning/my-mock/logs/@icedesign/my-mock","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-28 18:50:37,819 INFO 45723 [egg-multipart] stream mode enable
+2019-04-28 18:50:37,893 INFO 45723 [egg-static] starting static serve /public/ -> /Users/luyan1/learning/my-mock/app/public
+2019-04-28 18:50:37,897 INFO 45723 [egg-security] use csrf middleware
+2019-04-28 18:50:37,898 INFO 45723 [egg-security] use methodnoallow middleware
+2019-04-28 18:50:37,899 INFO 45723 [egg-security] use noopen middleware
+2019-04-28 18:50:37,900 INFO 45723 [egg-security] use nosniff middleware
+2019-04-28 18:50:37,900 INFO 45723 [egg-security] use xssProtection middleware
+2019-04-28 18:50:37,901 INFO 45723 [egg-security] use xframe middleware
+2019-04-28 18:50:37,905 INFO 45723 [egg-security] use dta middleware
+2019-04-28 18:50:37,906 INFO 45723 [egg-security] compose 7 middlewares into one security middleware
+2019-04-28 18:50:37,917 INFO 45723 [egg:core] dump config after load, 9ms
+2019-04-28 18:50:37,939 INFO 45723 [egg-watcher:application] watcher start success
+2019-04-28 18:50:37,947 INFO 45723 [egg:core] dump config after ready, 5ms
+2019-04-28 18:55:32,553 INFO 45847 [egg:logger] init all loggers with options: {"dir":"/Users/luyan1/learning/my-mock/logs/@icedesign/my-mock","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-28 18:55:32,590 INFO 45847 [egg-multipart] stream mode enable
+2019-04-28 18:55:32,677 INFO 45847 [egg-static] starting static serve /public/ -> /Users/luyan1/learning/my-mock/app/public
+2019-04-28 18:55:32,680 INFO 45847 [egg-security] use csrf middleware
+2019-04-28 18:55:32,681 INFO 45847 [egg-security] use methodnoallow middleware
+2019-04-28 18:55:32,682 INFO 45847 [egg-security] use noopen middleware
+2019-04-28 18:55:32,684 INFO 45847 [egg-security] use nosniff middleware
+2019-04-28 18:55:32,685 INFO 45847 [egg-security] use xssProtection middleware
+2019-04-28 18:55:32,685 INFO 45847 [egg-security] use xframe middleware
+2019-04-28 18:55:32,686 INFO 45847 [egg-security] use dta middleware
+2019-04-28 18:55:32,686 INFO 45847 [egg-security] compose 7 middlewares into one security middleware
+2019-04-28 18:55:32,693 INFO 45847 [egg:core] dump config after load, 4ms
+2019-04-28 18:55:32,710 INFO 45847 [egg-watcher:application] watcher start success
+2019-04-28 18:55:32,715 INFO 45847 [egg:core] dump config after ready, 3ms
+2019-04-29 13:20:53,254 INFO 58055 [egg:logger] init all loggers with options: {"dir":"/Users/luyan1/learning/my-mock/logs/@icedesign/my-mock","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-29 13:20:53,311 INFO 58055 [egg-multipart] stream mode enable
+2019-04-29 13:20:53,400 INFO 58055 [egg-static] starting static serve /public/ -> /Users/luyan1/learning/my-mock/app/public
+2019-04-29 13:20:53,404 INFO 58055 [egg-security] use csrf middleware
+2019-04-29 13:20:53,406 INFO 58055 [egg-security] use methodnoallow middleware
+2019-04-29 13:20:53,406 INFO 58055 [egg-security] use noopen middleware
+2019-04-29 13:20:53,407 INFO 58055 [egg-security] use nosniff middleware
+2019-04-29 13:20:53,408 INFO 58055 [egg-security] use xssProtection middleware
+2019-04-29 13:20:53,409 INFO 58055 [egg-security] use xframe middleware
+2019-04-29 13:20:53,410 INFO 58055 [egg-security] use dta middleware
+2019-04-29 13:20:53,410 INFO 58055 [egg-security] compose 7 middlewares into one security middleware
+2019-04-29 13:20:53,418 INFO 58055 [egg:core] dump config after load, 6ms
+2019-04-29 13:20:53,430 INFO 58055 [egg-watcher:application] watcher start success
+2019-04-29 13:20:53,436 INFO 58055 [egg:core] dump config after ready, 4ms
+2019-04-29 13:21:11,051 INFO 58074 [egg:logger] init all loggers with options: {"dir":"/Users/luyan1/learning/my-mock/logs/@icedesign/my-mock","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-29 13:21:11,094 INFO 58074 [egg-multipart] stream mode enable
+2019-04-29 13:21:11,179 INFO 58074 [egg-static] starting static serve /public/ -> /Users/luyan1/learning/my-mock/app/public
+2019-04-29 13:21:11,183 INFO 58074 [egg-security] use csrf middleware
+2019-04-29 13:21:11,184 INFO 58074 [egg-security] use methodnoallow middleware
+2019-04-29 13:21:11,184 INFO 58074 [egg-security] use noopen middleware
+2019-04-29 13:21:11,186 INFO 58074 [egg-security] use nosniff middleware
+2019-04-29 13:21:11,187 INFO 58074 [egg-security] use xssProtection middleware
+2019-04-29 13:21:11,187 INFO 58074 [egg-security] use xframe middleware
+2019-04-29 13:21:11,188 INFO 58074 [egg-security] use dta middleware
+2019-04-29 13:21:11,188 INFO 58074 [egg-security] compose 7 middlewares into one security middleware
+2019-04-29 13:21:11,195 INFO 58074 [egg:core] dump config after load, 5ms
+2019-04-29 13:21:11,209 INFO 58074 [egg-watcher:application] watcher start success
+2019-04-29 13:21:11,217 INFO 58074 [egg:core] dump config after ready, 7ms
+2019-04-29 13:21:11,748 INFO 58076 [egg:logger] init all loggers with options: {"dir":"/Users/luyan1/learning/my-mock/logs/@icedesign/my-mock","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"@icedesign/my-mock-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-04-29 13:21:11,792 INFO 58076 [egg-multipart] stream mode enable
+2019-04-29 13:21:11,829 INFO 58076 [egg-static] starting static serve /public/ -> /Users/luyan1/learning/my-mock/app/public
+2019-04-29 13:21:11,832 INFO 58076 [egg-security] use csrf middleware
+2019-04-29 13:21:11,833 INFO 58076 [egg-security] use methodnoallow middleware
+2019-04-29 13:21:11,833 INFO 58076 [egg-security] use noopen middleware
+2019-04-29 13:21:11,834 INFO 58076 [egg-security] use nosniff middleware
+2019-04-29 13:21:11,834 INFO 58076 [egg-security] use xssProtection middleware
+2019-04-29 13:21:11,834 INFO 58076 [egg-security] use xframe middleware
+2019-04-29 13:21:11,834 INFO 58076 [egg-security] use dta middleware
+2019-04-29 13:21:11,834 INFO 58076 [egg-security] compose 7 middlewares into one security middleware
+2019-04-29 13:21:11,840 INFO 58076 [egg:core] dump config after load, 5ms
+2019-04-29 13:21:11,856 INFO 58076 [egg-watcher:application] watcher start success
+2019-04-29 13:21:11,862 INFO 58076 [egg:core] dump config after ready, 4ms
